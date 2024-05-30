@@ -1,0 +1,21 @@
+# agent that learns predicates and operators and plan with PDDL
+agent: LearnPDDLAgent
+
+defaults:
+  - base
+  - _self_
+
+# planner to explore in training mode
+train_planner: PDDLPlanner
+
+# planner in test mode
+test_planner: PDDLPlanner
+
+# load path
+load_path:
+
+# exploration prob
+random_act_prob: 0.5
+
+# replan
+replan_at_each_step_at_test: False

@@ -1,0 +1,18 @@
+# agent config: planning and learning
+agent: LearnPredicatePrecondAgent
+
+defaults:
+  - base
+  - _self_
+
+# planner to explore in training mode
+train_planner: LLMPlanner
+
+# planner in test mode
+test_planner: LLMPlanner
+
+# load path
+load_path:
+
+# exploration prob
+random_act_prob: 0.3

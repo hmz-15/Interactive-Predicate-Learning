@@ -1,0 +1,15 @@
+# agent that learn nothing and explore randomly
+agent: RandomPlanAgent
+
+defaults:
+  - base
+  - _self_
+
+# planner to explore in training mode
+train_planner: RandomPlanner
+
+# planner in test mode
+test_planner: RandomPlanner
+
+# load path
+load_path:

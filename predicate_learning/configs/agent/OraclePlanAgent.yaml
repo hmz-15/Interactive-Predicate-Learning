@@ -1,0 +1,18 @@
+# agent that learn nothing and plan with ground truth pddl
+agent: OraclePlanAgent
+
+defaults:
+  - base
+  - _self_
+
+# planner to explore in training mode
+train_planner: PDDLPlanner
+
+# planner in test mode
+test_planner: PDDLPlanner
+
+# load path
+load_path:
+
+# whether to save demo traj
+save_demo: True

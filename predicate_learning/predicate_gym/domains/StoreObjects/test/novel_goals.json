@@ -1,0 +1,382 @@
+{
+  "1": {
+    "objects": {
+      "shelf": [
+        -5,
+        0
+      ],
+      "coaster": [
+        -30.77669089919962,
+        0.0
+      ],
+      "fruitcan": [
+        22.833359846812655,
+        0.0
+      ],
+      "tomatocan": [
+        22.843337932835407,
+        3.0
+      ]
+    },
+    "goal_text": "Store objects on shelf following the order: coaster on shelf, fruitcan on coaster, tomatocan on fruitcan.",
+    "goal_lits_gt": [
+      [
+        "on",
+        "coaster",
+        "shelf"
+      ],
+      [
+        "on",
+        "fruitcan",
+        "coaster"
+      ],
+      [
+        "on",
+        "tomatocan",
+        "fruitcan"
+      ]
+    ]
+  },
+  "2": {
+    "objects": {
+      "shelf": [
+        -5,
+        0
+      ],
+      "coaster": [
+        -35.88067055197033,
+        0.0
+      ],
+      "fruitcan": [
+        -36.38723510956968,
+        2.5
+      ],
+      "tomatocan": [
+        11.678703831971294,
+        0.0
+      ]
+    },
+    "goal_text": "Store objects on shelf following the order: coaster on shelf, fruitcan on coaster, tomatocan on fruitcan.",
+    "goal_lits_gt": [
+      [
+        "on",
+        "coaster",
+        "shelf"
+      ],
+      [
+        "on",
+        "fruitcan",
+        "coaster"
+      ],
+      [
+        "on",
+        "tomatocan",
+        "fruitcan"
+      ]
+    ]
+  },
+  "3": {
+    "objects": {
+      "shelf": [
+        -5,
+        0
+      ],
+      "coaster": [
+        -19.208578278303694,
+        0.0
+      ],
+      "fruitcan": [
+        -19.547015929232447,
+        2.5
+      ],
+      "tomatocan": [
+        -3.66940771738287,
+        4.0
+      ]
+    },
+    "goal_text": "Store objects on shelf following the order: coaster on shelf, fruitcan on coaster, tomatocan on fruitcan.",
+    "goal_lits_gt": [
+      [
+        "on",
+        "coaster",
+        "shelf"
+      ],
+      [
+        "on",
+        "fruitcan",
+        "coaster"
+      ],
+      [
+        "on",
+        "tomatocan",
+        "fruitcan"
+      ]
+    ]
+  },
+  "4": {
+    "objects": {
+      "shelf": [
+        -5,
+        0
+      ],
+      "coaster": [
+        -15.169766032092824,
+        0.0
+      ],
+      "fruitcan": [
+        -14.740336803786082,
+        2.5
+      ],
+      "tomatocan": [
+        -14.734245521741197,
+        5.5
+      ]
+    },
+    "goal_text": "Store objects on shelf following the order: coaster on shelf, fruitcan on coaster, tomatocan on fruitcan.",
+    "goal_lits_gt": [
+      [
+        "on",
+        "coaster",
+        "shelf"
+      ],
+      [
+        "on",
+        "fruitcan",
+        "coaster"
+      ],
+      [
+        "on",
+        "tomatocan",
+        "fruitcan"
+      ]
+    ]
+  },
+  "5": {
+    "objects": {
+      "shelf": [
+        -5,
+        0
+      ],
+      "coaster": [
+        16.381359863307274,
+        0.0
+      ],
+      "fruitcan": [
+        16.07731343017367,
+        2.5
+      ],
+      "tomatocan": [
+        -2.5128734346021426,
+        4.0
+      ]
+    },
+    "goal_text": "Store objects on shelf following the order: coaster on shelf, fruitcan on coaster, tomatocan on fruitcan.",
+    "goal_lits_gt": [
+      [
+        "on",
+        "coaster",
+        "shelf"
+      ],
+      [
+        "on",
+        "fruitcan",
+        "coaster"
+      ],
+      [
+        "on",
+        "tomatocan",
+        "fruitcan"
+      ]
+    ]
+  },
+  "6": {
+    "objects": {
+      "shelf": [
+        -5,
+        0
+      ],
+      "coaster": [
+        8.522950782821297,
+        0.0
+      ],
+      "fruitcan": [
+        20.5543759816724,
+        0.0
+      ],
+      "tomatocan": [
+        -6.740810869785267,
+        4.0
+      ]
+    },
+    "goal_text": "Store objects on shelf following the order: coaster on shelf, fruitcan on coaster, tomatocan on fruitcan.",
+    "goal_lits_gt": [
+      [
+        "on",
+        "coaster",
+        "shelf"
+      ],
+      [
+        "on",
+        "fruitcan",
+        "coaster"
+      ],
+      [
+        "on",
+        "tomatocan",
+        "fruitcan"
+      ]
+    ]
+  },
+  "7": {
+    "objects": {
+      "shelf": [
+        -5,
+        0
+      ],
+      "coaster": [
+        -27.50552109283204,
+        0.0
+      ],
+      "fruitcan": [
+        -27.511925519010738,
+        2.5
+      ],
+      "tomatocan": [
+        -27.50322348207067,
+        5.5
+      ]
+    },
+    "goal_text": "Store objects on shelf following the order: coaster on shelf, fruitcan on coaster, tomatocan on fruitcan.",
+    "goal_lits_gt": [
+      [
+        "on",
+        "coaster",
+        "shelf"
+      ],
+      [
+        "on",
+        "fruitcan",
+        "coaster"
+      ],
+      [
+        "on",
+        "tomatocan",
+        "fruitcan"
+      ]
+    ]
+  },
+  "8": {
+    "objects": {
+      "shelf": [
+        -5,
+        0
+      ],
+      "coaster": [
+        -22.232649837552287,
+        0.0
+      ],
+      "fruitcan": [
+        -21.826272544414273,
+        2.5
+      ],
+      "tomatocan": [
+        -3.7949420436820644,
+        4.0
+      ]
+    },
+    "goal_text": "Store objects on shelf following the order: coaster on shelf, fruitcan on coaster, tomatocan on fruitcan.",
+    "goal_lits_gt": [
+      [
+        "on",
+        "coaster",
+        "shelf"
+      ],
+      [
+        "on",
+        "fruitcan",
+        "coaster"
+      ],
+      [
+        "on",
+        "tomatocan",
+        "fruitcan"
+      ]
+    ]
+  },
+  "9": {
+    "objects": {
+      "shelf": [
+        -5,
+        0
+      ],
+      "coaster": [
+        -24.17551773069402,
+        0.0
+      ],
+      "fruitcan": [
+        -2.8669272499116953,
+        4.0
+      ],
+      "tomatocan": [
+        -2.8592206164090976,
+        7.0
+      ]
+    },
+    "goal_text": "Store objects on shelf following the order: coaster on shelf, fruitcan on coaster, tomatocan on fruitcan.",
+    "goal_lits_gt": [
+      [
+        "on",
+        "coaster",
+        "shelf"
+      ],
+      [
+        "on",
+        "fruitcan",
+        "coaster"
+      ],
+      [
+        "on",
+        "tomatocan",
+        "fruitcan"
+      ]
+    ]
+  },
+  "10": {
+    "objects": {
+      "shelf": [
+        -5,
+        0
+      ],
+      "coaster": [
+        -14.98395007017442,
+        0.0
+      ],
+      "fruitcan": [
+        21.998741536489533,
+        0.0
+      ],
+      "tomatocan": [
+        -14.586081682093546,
+        2.5
+      ]
+    },
+    "goal_text": "Store objects on shelf following the order: coaster on shelf, fruitcan on coaster, tomatocan on fruitcan.",
+    "goal_lits_gt": [
+      [
+        "on",
+        "coaster",
+        "shelf"
+      ],
+      [
+        "on",
+        "fruitcan",
+        "coaster"
+      ],
+      [
+        "on",
+        "tomatocan",
+        "fruitcan"
+      ]
+    ]
+  }
+}

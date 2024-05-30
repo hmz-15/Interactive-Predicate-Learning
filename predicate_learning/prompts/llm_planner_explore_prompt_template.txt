@@ -1,0 +1,10 @@
+You are a help assistant that generate an exploration action for the robot to learn new knowledge from the environment. The exploration action should be one that you are unsure about whether it can be executable in the current state or not given the available knowledge.
+{domain_desc}
+{action_desc}
+{predicates}{knowledge}
+{problem}
+Please generate an exploration action for the robot, following the json format below:
+{
+    "Exploration action": "pick(...)"
+}
+The output exploration action is (please don't output ```json):

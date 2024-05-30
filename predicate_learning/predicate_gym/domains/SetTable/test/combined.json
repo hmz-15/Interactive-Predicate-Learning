@@ -1,0 +1,472 @@
+{
+  "1": {
+    "objects": {
+      "placemat": [
+        -5,
+        0
+      ],
+      "plate": [
+        3.1999999999999993,
+        0
+      ],
+      "candybar": [
+        -5.595220544209553,
+        0.4
+      ],
+      "sausage": [
+        -19.44408103533674,
+        0.0
+      ],
+      "bread": [
+        14.515077284498783,
+        0.0
+      ]
+    },
+    "goal_text": "Set a breakfast table with plate on placemat, candybar on plate, bread on candybar, sausage on bread.",
+    "goal_lits_gt": [
+      [
+        "on",
+        "plate",
+        "placemat"
+      ],
+      [
+        "on",
+        "candybar",
+        "plate"
+      ],
+      [
+        "on",
+        "bread",
+        "candybar"
+      ],
+      [
+        "on",
+        "sausage",
+        "bread"
+      ]
+    ]
+  },
+  "2": {
+    "objects": {
+      "placemat": [
+        -5,
+        0
+      ],
+      "plate": [
+        -13.2,
+        0
+      ],
+      "candybar": [
+        -5.387365115652162,
+        0.4
+      ],
+      "sausage": [
+        2.8990230976538474,
+        0.0
+      ],
+      "bread": [
+        -36.37556306546452,
+        0.0
+      ]
+    },
+    "goal_text": "Set a breakfast table with plate on placemat, candybar on plate, bread on candybar, sausage on bread.",
+    "goal_lits_gt": [
+      [
+        "on",
+        "plate",
+        "placemat"
+      ],
+      [
+        "on",
+        "candybar",
+        "plate"
+      ],
+      [
+        "on",
+        "bread",
+        "candybar"
+      ],
+      [
+        "on",
+        "sausage",
+        "bread"
+      ]
+    ]
+  },
+  "3": {
+    "objects": {
+      "placemat": [
+        -5,
+        0
+      ],
+      "plate": [
+        -13.2,
+        0
+      ],
+      "candybar": [
+        7.325706900467544,
+        0.0
+      ],
+      "sausage": [
+        21.465759514962734,
+        0.0
+      ],
+      "bread": [
+        -4.898595022022457,
+        0.4
+      ]
+    },
+    "goal_text": "Set a breakfast table with plate on placemat, candybar on plate, bread on candybar, sausage on bread.",
+    "goal_lits_gt": [
+      [
+        "on",
+        "plate",
+        "placemat"
+      ],
+      [
+        "on",
+        "candybar",
+        "plate"
+      ],
+      [
+        "on",
+        "bread",
+        "candybar"
+      ],
+      [
+        "on",
+        "sausage",
+        "bread"
+      ]
+    ]
+  },
+  "4": {
+    "objects": {
+      "placemat": [
+        -5,
+        0
+      ],
+      "plate": [
+        3.1999999999999993,
+        0
+      ],
+      "candybar": [
+        -3.6415221077996223,
+        0.4
+      ],
+      "sausage": [
+        18.443131124943832,
+        0.0
+      ],
+      "bread": [
+        -29.14769130463456,
+        0.0
+      ]
+    },
+    "goal_text": "Set a breakfast table with plate on placemat, candybar on plate, bread on candybar, sausage on bread.",
+    "goal_lits_gt": [
+      [
+        "on",
+        "plate",
+        "placemat"
+      ],
+      [
+        "on",
+        "candybar",
+        "plate"
+      ],
+      [
+        "on",
+        "bread",
+        "candybar"
+      ],
+      [
+        "on",
+        "sausage",
+        "bread"
+      ]
+    ]
+  },
+  "5": {
+    "objects": {
+      "placemat": [
+        -5,
+        0
+      ],
+      "plate": [
+        3.1999999999999993,
+        0
+      ],
+      "candybar": [
+        15.286257235557446,
+        0.0
+      ],
+      "sausage": [
+        10.198862960031628,
+        0.0
+      ],
+      "bread": [
+        -4.024134973190312,
+        0.4
+      ]
+    },
+    "goal_text": "Set a breakfast table with plate on placemat, candybar on plate, bread on candybar, sausage on bread.",
+    "goal_lits_gt": [
+      [
+        "on",
+        "plate",
+        "placemat"
+      ],
+      [
+        "on",
+        "candybar",
+        "plate"
+      ],
+      [
+        "on",
+        "bread",
+        "candybar"
+      ],
+      [
+        "on",
+        "sausage",
+        "bread"
+      ]
+    ]
+  },
+  "6": {
+    "objects": {
+      "placemat": [
+        -5,
+        0
+      ],
+      "plate": [
+        3.1999999999999993,
+        0
+      ],
+      "candybar": [
+        -35.789547935761675,
+        0.0
+      ],
+      "sausage": [
+        -6.6926893832459315,
+        0.4
+      ],
+      "bread": [
+        -20.31446795967608,
+        0.0
+      ]
+    },
+    "goal_text": "Set a breakfast table with plate on placemat, candybar on plate, bread on candybar, sausage on bread.",
+    "goal_lits_gt": [
+      [
+        "on",
+        "plate",
+        "placemat"
+      ],
+      [
+        "on",
+        "candybar",
+        "plate"
+      ],
+      [
+        "on",
+        "bread",
+        "candybar"
+      ],
+      [
+        "on",
+        "sausage",
+        "bread"
+      ]
+    ]
+  },
+  "7": {
+    "objects": {
+      "placemat": [
+        -5,
+        0
+      ],
+      "plate": [
+        3.1999999999999993,
+        0
+      ],
+      "candybar": [
+        -32.49733981336239,
+        0.0
+      ],
+      "sausage": [
+        12.97640989833081,
+        0.0
+      ],
+      "bread": [
+        -4.156999394496357,
+        0.4
+      ]
+    },
+    "goal_text": "Set a breakfast table with plate on placemat, candybar on plate, bread on candybar, sausage on bread.",
+    "goal_lits_gt": [
+      [
+        "on",
+        "plate",
+        "placemat"
+      ],
+      [
+        "on",
+        "candybar",
+        "plate"
+      ],
+      [
+        "on",
+        "bread",
+        "candybar"
+      ],
+      [
+        "on",
+        "sausage",
+        "bread"
+      ]
+    ]
+  },
+  "8": {
+    "objects": {
+      "placemat": [
+        -5,
+        0
+      ],
+      "plate": [
+        3.1999999999999993,
+        0
+      ],
+      "candybar": [
+        13.954319535481496,
+        0.0
+      ],
+      "sausage": [
+        -24.868694599952843,
+        0.0
+      ],
+      "bread": [
+        -5.853420580368901,
+        0.4
+      ]
+    },
+    "goal_text": "Set a breakfast table with plate on placemat, candybar on plate, bread on candybar, sausage on bread.",
+    "goal_lits_gt": [
+      [
+        "on",
+        "plate",
+        "placemat"
+      ],
+      [
+        "on",
+        "candybar",
+        "plate"
+      ],
+      [
+        "on",
+        "bread",
+        "candybar"
+      ],
+      [
+        "on",
+        "sausage",
+        "bread"
+      ]
+    ]
+  },
+  "9": {
+    "objects": {
+      "placemat": [
+        -5,
+        0
+      ],
+      "plate": [
+        3.1999999999999993,
+        0
+      ],
+      "candybar": [
+        16.421909132370075,
+        0.0
+      ],
+      "sausage": [
+        -5.224371269954333,
+        0.4
+      ],
+      "bread": [
+        -21.214778863960554,
+        0.0
+      ]
+    },
+    "goal_text": "Set a breakfast table with plate on placemat, candybar on plate, bread on candybar, sausage on bread.",
+    "goal_lits_gt": [
+      [
+        "on",
+        "plate",
+        "placemat"
+      ],
+      [
+        "on",
+        "candybar",
+        "plate"
+      ],
+      [
+        "on",
+        "bread",
+        "candybar"
+      ],
+      [
+        "on",
+        "sausage",
+        "bread"
+      ]
+    ]
+  },
+  "10": {
+    "objects": {
+      "placemat": [
+        -5,
+        0
+      ],
+      "plate": [
+        -13.2,
+        0
+      ],
+      "candybar": [
+        -4.239213765805651,
+        0.4
+      ],
+      "sausage": [
+        -38.05261667142435,
+        0.0
+      ],
+      "bread": [
+        4.789914940232379,
+        0.0
+      ]
+    },
+    "goal_text": "Set a breakfast table with plate on placemat, candybar on plate, bread on candybar, sausage on bread.",
+    "goal_lits_gt": [
+      [
+        "on",
+        "plate",
+        "placemat"
+      ],
+      [
+        "on",
+        "candybar",
+        "plate"
+      ],
+      [
+        "on",
+        "bread",
+        "candybar"
+      ],
+      [
+        "on",
+        "sausage",
+        "bread"
+      ]
+    ]
+  }
+}

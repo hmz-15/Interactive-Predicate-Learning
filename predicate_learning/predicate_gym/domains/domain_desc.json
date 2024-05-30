@@ -1,0 +1,14 @@
+{
+    "SetTable": {
+        "domain_desc": "In a 2D kitchen tabletop environment, a robot gripper is to set a breakfast scene. The gravity direction is negative y. The gripper can move freely and open along x axis to grasp objects",
+        "actions": ["pick_up", "place_on_table", "place_first_on_second", "push_plate_on_object"]
+    },
+    "CookMeal": {
+        "domain_desc": "In a 2D kitchen tabletop environment, a robot gripper is to cook meal with a pot. The gravity direction is negative y. The gripper can move freely and open along x axis to grasp objects",
+        "actions": ["pick_up", "place_on_table", "place_first_in_second", "get_water_from_faucet", "pour_water_from_first_to_second"]
+    },
+    "StoreObjects": {
+        "domain_desc": "In a 2D kitchen tabletop environment, a robot gripper is to store objects on a shelf. The gravity direction is negative y. The gripper can move freely and open along x axis to grasp objects",
+        "actions": ["pick_up", "place_on_table", "place_first_on_second"]
+    }
+}

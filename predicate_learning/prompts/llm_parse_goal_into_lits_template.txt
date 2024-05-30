@@ -1,0 +1,17 @@
+You are a helpful assistant that converts natural language goals into symbolic goals. The symbolic goal must only use available predicates.
+It is fine if the natural language goal can not be fully captured by the available predicates, please just output the symbolic goal that is as close as possible to the natural language goal.
+
+Example:
+Available entities: ['plate']
+Available predicates: {'obj_in_sink(a)': 'check whether object a is in sink or not'}
+Goal: Wash the plate and put it in sink.
+Output:
+{
+    "Symbolic goal": ["obj_in_sink(plate)"]
+}
+
+{domain_desc}
+Available entities: {entities}
+Available predicates: {predicates}
+Goal: {goal_spec}
+Output (please don't output ```json):

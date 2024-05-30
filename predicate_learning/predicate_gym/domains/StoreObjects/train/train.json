@@ -1,0 +1,279 @@
+{
+  "1": {
+    "objects": {
+      "shelf": [
+        -5,
+        0
+      ],
+      "coaster": [
+        6.670530145221938,
+        0.0
+      ],
+      "tomatocan": [
+        18.938494519075654,
+        0.0
+      ],
+      "fruitcan": [
+        6.2197754296335015,
+        2.5
+      ]
+    },
+    "goal_text": "Stack tomatocan on shelf.",
+    "goal_lits_gt": [
+      [
+        "on",
+        "tomatocan",
+        "shelf"
+      ]
+    ]
+  },
+  "2": {
+    "objects": {
+      "shelf": [
+        -5,
+        0
+      ],
+      "coaster": [
+        17.168532281698873,
+        0.0
+      ],
+      "fruitcan": [
+        -13.282644745266527,
+        0.0
+      ],
+      "tomatocan": [
+        2.5071401397532243,
+        0.0
+      ]
+    },
+    "goal_text": "Stack fruitcan on coaster.",
+    "goal_lits_gt": [
+      [
+        "on",
+        "fruitcan",
+        "coaster"
+      ]
+    ]
+  },
+  "3": {
+    "objects": {
+      "shelf": [
+        -5,
+        0
+      ],
+      "fruitcan": [
+        -4.439501134348831,
+        4.0
+      ],
+      "coaster": [
+        -37.43320874971419,
+        0.0
+      ],
+      "tomatocan": [
+        5.430766012299399,
+        0.0
+      ]
+    },
+    "goal_text": "Put fruitcan on the table.",
+    "goal_lits_gt": [
+      [
+        "on_table",
+        "fruitcan"
+      ]
+    ]
+  },
+  "4": {
+    "objects": {
+      "shelf": [
+        -5,
+        0
+      ],
+      "coaster": [
+        -18.37274920556073,
+        0.0
+      ],
+      "tomatocan": [
+        -30.98302155780233,
+        0.0
+      ],
+      "fruitcan": [
+        20.567347945530095,
+        0.0
+      ]
+    },
+    "goal_text": "Stack tomatocan on shelf.",
+    "goal_lits_gt": [
+      [
+        "on",
+        "tomatocan",
+        "shelf"
+      ]
+    ]
+  },
+  "5": {
+    "objects": {
+      "shelf": [
+        -5,
+        0
+      ],
+      "coaster": [
+        -36.38305965943816,
+        0.0
+      ],
+      "tomatocan": [
+        22.787929014896495,
+        0.0
+      ],
+      "fruitcan": [
+        -36.87677408217354,
+        2.5
+      ]
+    },
+    "goal_text": "Stack tomatocan on fruitcan.",
+    "goal_lits_gt": [
+      [
+        "on",
+        "tomatocan",
+        "fruitcan"
+      ]
+    ]
+  },
+  "6": {
+    "objects": {
+      "shelf": [
+        -5,
+        0
+      ],
+      "coaster": [
+        -5.240586975166803,
+        4.0
+      ],
+      "fruitcan": [
+        -4.900728165195916,
+        6.5
+      ],
+      "tomatocan": [
+        -4.905552565563915,
+        9.5
+      ]
+    },
+    "goal_text": "Put coaster on the table.",
+    "goal_lits_gt": [
+      [
+        "on_table",
+        "coaster"
+      ]
+    ]
+  },
+  "7": {
+    "objects": {
+      "shelf": [
+        -5,
+        0
+      ],
+      "coaster": [
+        3.6265789820357273,
+        0.0
+      ],
+      "fruitcan": [
+        -2.7937153133477706,
+        4.0
+      ],
+      "tomatocan": [
+        3.858396417809277,
+        2.5
+      ]
+    },
+    "goal_text": "Stack coaster on shelf.",
+    "goal_lits_gt": [
+      [
+        "on",
+        "coaster",
+        "shelf"
+      ]
+    ]
+  },
+  "8": {
+    "objects": {
+      "shelf": [
+        -5,
+        0
+      ],
+      "coaster": [
+        -33.10846861089718,
+        0.0
+      ],
+      "tomatocan": [
+        -22.6932255203876,
+        0.0
+      ],
+      "fruitcan": [
+        13.838931701494566,
+        0.0
+      ]
+    },
+    "goal_text": "Stack tomatocan on fruitcan.",
+    "goal_lits_gt": [
+      [
+        "on",
+        "tomatocan",
+        "fruitcan"
+      ]
+    ]
+  },
+  "9": {
+    "objects": {
+      "shelf": [
+        -5,
+        0
+      ],
+      "coaster": [
+        -4.569722324299528,
+        4.0
+      ],
+      "fruitcan": [
+        -4.261481403930408,
+        6.5
+      ],
+      "tomatocan": [
+        -4.263013374316281,
+        9.5
+      ]
+    },
+    "goal_text": "Put coaster on the table.",
+    "goal_lits_gt": [
+      [
+        "on_table",
+        "coaster"
+      ]
+    ]
+  },
+  "10": {
+    "objects": {
+      "shelf": [
+        -5,
+        0
+      ],
+      "coaster": [
+        -37.8718918507387,
+        0.0
+      ],
+      "fruitcan": [
+        17.351072794238437,
+        0.0
+      ],
+      "tomatocan": [
+        -4.468080926599323,
+        4.0
+      ]
+    },
+    "goal_text": "Stack fruitcan on shelf.",
+    "goal_lits_gt": [
+      [
+        "on",
+        "fruitcan",
+        "shelf"
+      ]
+    ]
+  }
+}

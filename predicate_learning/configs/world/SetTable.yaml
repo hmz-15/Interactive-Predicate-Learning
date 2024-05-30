@@ -1,0 +1,79 @@
+world: SetTable
+
+# task instances
+instances_list:  
+  # train instances (for corection planning)
+  train:
+    train:
+      num_instances: 10
+      task_spec:
+        known_objects: ["placemat", "plate", "candybar", "bread"]
+        # first sample goal semantics, then specific goal item
+        goals: # start with "primitive"
+          primitive_put_on_obj:
+          - [["on", "candybar", "placemat"]]
+          - [["on", "candybar", "plate"]]
+          - [["on", "bread", "placemat"]]
+          - [["on", "bread", "plate"]]
+          primitive_push_plate: 
+          - [["on", "plate", "placemat"]]
+          primitive_put_on:
+          - [["on_table", "candybar"]]
+          - [["on_table", "bread"]]
+
+  # test instances (for generalization)
+  test:
+    canonical:
+      num_instances: 10
+      task_spec:
+        known_objects: ["placemat", "plate", "candybar", "bread"]
+        # first sample goal semantics, then specific goal item
+        goals: # start with "primitive"
+          primitive_put_on_obj:
+          - [["on", "candybar", "placemat"]]
+          - [["on", "candybar", "plate"]]
+          - [["on", "bread", "placemat"]]
+          - [["on", "bread", "plate"]]
+          primitive_push_plate: 
+          - [["on", "plate", "placemat"]]
+          primitive_put_on:
+          - [["on_table", "candybar"]]
+          - [["on_table", "bread"]]
+
+    novel_objects:
+      num_instances: 10
+      task_spec:
+        known_objects: ["placemat", "plate", "candybar", "sausage", "bread"]
+        # first sample goal semantics, then specific goal item
+        goals: # start with "primitive"
+        primitive_put_on_obj:
+        - [["on", "candybar", "placemat"]]
+        - [["on", "sausage", "placemat"]]
+        - [["on", "bread", "placemat"]]
+        - [["on", "candybar", "plate"]]
+        - [["on", "sausage", "plate"]]
+        - [["on", "bread", "plate"]]
+        primitive_push_plate: 
+        - [["on", "plate", "placemat"]]
+        primitive_put_on:
+        - [["on_table", "candybar"]]
+        - [["on_table", "sausage"]]
+        - [["on_table", "bread"]]
+
+    novel_goals:
+      num_instances: 10
+      task_spec:
+        known_objects: ["placemat", "plate", "candybar", "bread"]
+        # first sample goal semantics, then specific goal item
+        goals: # start with "full"
+          full:
+          - [["on", "plate", "placemat"], ["on", "bread", "plate"], ["on", "candybar", "bread"]]
+
+    combined:
+      num_instances: 10
+      task_spec:
+        known_objects: ["placemat", "plate", "candybar", "sausage", "bread"]
+        # first sample goal semantics, then specific goal item
+        goals: # start with "full"
+          full:
+          - [["on", "plate", "placemat"], ["on", "candybar", "plate"], ["on", "bread", "candybar"], ["on", "sausage", "bread"]]

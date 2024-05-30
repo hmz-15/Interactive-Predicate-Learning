@@ -1,0 +1,622 @@
+{
+  "1": {
+    "objects": {
+      "pot": [
+        -5,
+        0
+      ],
+      "tallcup": [
+        -27.358744663506577,
+        0.0
+      ],
+      "cup": [
+        -33.78051862724872,
+        0.0
+      ],
+      "sausage": [
+        17.600765199038225,
+        0.0
+      ],
+      "fish": [
+        -18.811798919770652,
+        0.0
+      ],
+      "pork": [
+        7.2201808569200585,
+        0.0
+      ]
+    },
+    "goal_text": "Pour water and put sausage, fish, pork in pot, and pour water into tallcup on the table.",
+    "goal_lits_gt": [
+      [
+        "has_water",
+        "pot"
+      ],
+      [
+        "has_water",
+        "tallcup"
+      ],
+      [
+        "on_table",
+        "tallcup"
+      ],
+      [
+        "on_table",
+        "pot"
+      ],
+      [
+        "inside_container",
+        "sausage",
+        "pot"
+      ],
+      [
+        "inside_container",
+        "fish",
+        "pot"
+      ],
+      [
+        "inside_container",
+        "pork",
+        "pot"
+      ]
+    ]
+  },
+  "2": {
+    "objects": {
+      "pot": [
+        -5,
+        0
+      ],
+      "tallcup": [
+        19.297442913692002,
+        0.0
+      ],
+      "cup": [
+        12.582537832142211,
+        0.0
+      ],
+      "sausage": [
+        -17.75861096962964,
+        0.0
+      ],
+      "fish": [
+        -35.42299769075049,
+        0.0
+      ],
+      "pork": [
+        -27.929540223670674,
+        0.0
+      ]
+    },
+    "goal_text": "Pour water and put sausage, fish, pork in pot, and pour water into tallcup on the table.",
+    "goal_lits_gt": [
+      [
+        "has_water",
+        "pot"
+      ],
+      [
+        "has_water",
+        "tallcup"
+      ],
+      [
+        "on_table",
+        "tallcup"
+      ],
+      [
+        "on_table",
+        "pot"
+      ],
+      [
+        "inside_container",
+        "sausage",
+        "pot"
+      ],
+      [
+        "inside_container",
+        "fish",
+        "pot"
+      ],
+      [
+        "inside_container",
+        "pork",
+        "pot"
+      ]
+    ]
+  },
+  "3": {
+    "objects": {
+      "pot": [
+        -5,
+        0
+      ],
+      "tallcup": [
+        -32.1732823265435,
+        0.0
+      ],
+      "cup": [
+        12.38999742371116,
+        0.0
+      ],
+      "sausage": [
+        -20.880933813486184,
+        0.0
+      ],
+      "fish": [
+        -26.03766274166397,
+        0.0
+      ],
+      "pork": [
+        -37.684254258443005,
+        0.0
+      ]
+    },
+    "goal_text": "Pour water and put sausage, fish, pork in pot, and pour water into tallcup on the table.",
+    "goal_lits_gt": [
+      [
+        "has_water",
+        "pot"
+      ],
+      [
+        "has_water",
+        "tallcup"
+      ],
+      [
+        "on_table",
+        "tallcup"
+      ],
+      [
+        "on_table",
+        "pot"
+      ],
+      [
+        "inside_container",
+        "sausage",
+        "pot"
+      ],
+      [
+        "inside_container",
+        "fish",
+        "pot"
+      ],
+      [
+        "inside_container",
+        "pork",
+        "pot"
+      ]
+    ]
+  },
+  "4": {
+    "objects": {
+      "pot": [
+        -5,
+        0
+      ],
+      "tallcup": [
+        9.780795902129187,
+        0.0
+      ],
+      "cup": [
+        -20.469424673936516,
+        0.0
+      ],
+      "sausage": [
+        21.279944676749277,
+        0.0
+      ],
+      "fish": [
+        -37.5814374674365,
+        0.0
+      ],
+      "pork": [
+        -31.815309763485534,
+        0.0
+      ]
+    },
+    "goal_text": "Pour water and put sausage, fish, pork in pot, and pour water into tallcup on the table.",
+    "goal_lits_gt": [
+      [
+        "has_water",
+        "pot"
+      ],
+      [
+        "has_water",
+        "tallcup"
+      ],
+      [
+        "on_table",
+        "tallcup"
+      ],
+      [
+        "on_table",
+        "pot"
+      ],
+      [
+        "inside_container",
+        "sausage",
+        "pot"
+      ],
+      [
+        "inside_container",
+        "fish",
+        "pot"
+      ],
+      [
+        "inside_container",
+        "pork",
+        "pot"
+      ]
+    ]
+  },
+  "5": {
+    "objects": {
+      "pot": [
+        -5,
+        0
+      ],
+      "tallcup": [
+        16.790652073922985,
+        0.0
+      ],
+      "cup": [
+        -36.64285988534763,
+        0.0
+      ],
+      "sausage": [
+        -26.218654402844724,
+        0.0
+      ],
+      "fish": [
+        9.373094758070552,
+        0.0
+      ],
+      "pork": [
+        22.866446363581822,
+        0.0
+      ]
+    },
+    "goal_text": "Pour water and put sausage, fish, pork in pot, and pour water into tallcup on the table.",
+    "goal_lits_gt": [
+      [
+        "has_water",
+        "pot"
+      ],
+      [
+        "has_water",
+        "tallcup"
+      ],
+      [
+        "on_table",
+        "tallcup"
+      ],
+      [
+        "on_table",
+        "pot"
+      ],
+      [
+        "inside_container",
+        "sausage",
+        "pot"
+      ],
+      [
+        "inside_container",
+        "fish",
+        "pot"
+      ],
+      [
+        "inside_container",
+        "pork",
+        "pot"
+      ]
+    ]
+  },
+  "6": {
+    "objects": {
+      "pot": [
+        -5,
+        0
+      ],
+      "tallcup": [
+        -22.668104626833376,
+        0.0
+      ],
+      "cup": [
+        15.766686531872384,
+        0.0
+      ],
+      "sausage": [
+        8.106871020505839,
+        0.0
+      ],
+      "fish": [
+        -34.08841552039877,
+        0.0
+      ],
+      "pork": [
+        -28.989121864814514,
+        0.0
+      ]
+    },
+    "goal_text": "Pour water and put sausage, fish, pork in pot, and pour water into tallcup on the table.",
+    "goal_lits_gt": [
+      [
+        "has_water",
+        "pot"
+      ],
+      [
+        "has_water",
+        "tallcup"
+      ],
+      [
+        "on_table",
+        "tallcup"
+      ],
+      [
+        "on_table",
+        "pot"
+      ],
+      [
+        "inside_container",
+        "sausage",
+        "pot"
+      ],
+      [
+        "inside_container",
+        "fish",
+        "pot"
+      ],
+      [
+        "inside_container",
+        "pork",
+        "pot"
+      ]
+    ]
+  },
+  "7": {
+    "objects": {
+      "pot": [
+        -5,
+        0
+      ],
+      "tallcup": [
+        -24.320812053716082,
+        0.0
+      ],
+      "cup": [
+        -17.394800409076673,
+        0.0
+      ],
+      "sausage": [
+        10.3651069323968,
+        0.0
+      ],
+      "fish": [
+        -31.944874154170652,
+        0.0
+      ],
+      "pork": [
+        15.992100066306056,
+        0.0
+      ]
+    },
+    "goal_text": "Pour water and put sausage, fish, pork in pot, and pour water into tallcup on the table.",
+    "goal_lits_gt": [
+      [
+        "has_water",
+        "pot"
+      ],
+      [
+        "has_water",
+        "tallcup"
+      ],
+      [
+        "on_table",
+        "tallcup"
+      ],
+      [
+        "on_table",
+        "pot"
+      ],
+      [
+        "inside_container",
+        "sausage",
+        "pot"
+      ],
+      [
+        "inside_container",
+        "fish",
+        "pot"
+      ],
+      [
+        "inside_container",
+        "pork",
+        "pot"
+      ]
+    ]
+  },
+  "8": {
+    "objects": {
+      "pot": [
+        -5,
+        0
+      ],
+      "tallcup": [
+        -34.542130111166365,
+        0.0
+      ],
+      "cup": [
+        19.842067466608526,
+        0.0
+      ],
+      "sausage": [
+        13.269783037836426,
+        0.0
+      ],
+      "fish": [
+        -26.608859128326714,
+        0.0
+      ],
+      "pork": [
+        7.2241898722888145,
+        0.0
+      ]
+    },
+    "goal_text": "Pour water and put sausage, fish, pork in pot, and pour water into tallcup on the table.",
+    "goal_lits_gt": [
+      [
+        "has_water",
+        "pot"
+      ],
+      [
+        "has_water",
+        "tallcup"
+      ],
+      [
+        "on_table",
+        "tallcup"
+      ],
+      [
+        "on_table",
+        "pot"
+      ],
+      [
+        "inside_container",
+        "sausage",
+        "pot"
+      ],
+      [
+        "inside_container",
+        "fish",
+        "pot"
+      ],
+      [
+        "inside_container",
+        "pork",
+        "pot"
+      ]
+    ]
+  },
+  "9": {
+    "objects": {
+      "pot": [
+        -5,
+        0
+      ],
+      "tallcup": [
+        21.294467361736874,
+        0.0
+      ],
+      "cup": [
+        -35.64278310340967,
+        0.0
+      ],
+      "sausage": [
+        -24.102290287091584,
+        0.0
+      ],
+      "fish": [
+        14.430397604952999,
+        0.0
+      ],
+      "pork": [
+        -29.611354204123874,
+        0.0
+      ]
+    },
+    "goal_text": "Pour water and put sausage, fish, pork in pot, and pour water into tallcup on the table.",
+    "goal_lits_gt": [
+      [
+        "has_water",
+        "pot"
+      ],
+      [
+        "has_water",
+        "tallcup"
+      ],
+      [
+        "on_table",
+        "tallcup"
+      ],
+      [
+        "on_table",
+        "pot"
+      ],
+      [
+        "inside_container",
+        "sausage",
+        "pot"
+      ],
+      [
+        "inside_container",
+        "fish",
+        "pot"
+      ],
+      [
+        "inside_container",
+        "pork",
+        "pot"
+      ]
+    ]
+  },
+  "10": {
+    "objects": {
+      "pot": [
+        -5,
+        0
+      ],
+      "tallcup": [
+        -33.23246099677459,
+        0.0
+      ],
+      "cup": [
+        -23.609019337765787,
+        0.0
+      ],
+      "sausage": [
+        11.659283339683425,
+        0.0
+      ],
+      "fish": [
+        21.475467033905034,
+        0.0
+      ],
+      "pork": [
+        -16.05951213321297,
+        0.0
+      ]
+    },
+    "goal_text": "Pour water and put sausage, fish, pork in pot, and pour water into tallcup on the table.",
+    "goal_lits_gt": [
+      [
+        "has_water",
+        "pot"
+      ],
+      [
+        "has_water",
+        "tallcup"
+      ],
+      [
+        "on_table",
+        "tallcup"
+      ],
+      [
+        "on_table",
+        "pot"
+      ],
+      [
+        "inside_container",
+        "sausage",
+        "pot"
+      ],
+      [
+        "inside_container",
+        "fish",
+        "pot"
+      ],
+      [
+        "inside_container",
+        "pork",
+        "pot"
+      ]
+    ]
+  }
+}

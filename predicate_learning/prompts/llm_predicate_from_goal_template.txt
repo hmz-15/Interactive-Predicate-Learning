@@ -1,0 +1,25 @@
+You are a helpful assistant that converts natural language goals into symbolic goals, by proposing necessary predicates to learn. A predicate is a function that takes objects as arguments and outputs True or False. Please reason about predicates that directly reflect the goals, and only include these predicates in the symbolic goal. Please try to reuse available predicates to avoid redundant predicates. When give the symbolic goal, only include the symbolic literals that are directly mentioned in the goal text. The literals only take available objects as arguments (not "table", "any", or other variables). Do not infer or guess on what other literals should be in the goal. If you can't come up with goal literals given the above constraints, think about inventing new predicates. Other known environment entities include "table" and "gripper", so you can invent predicates such as "in_gripper", "under_table", etc.
+Note that the predicates in the given example are unknown to you.
+
+Example:
+Available objects: ['plate']
+Available predicates: {'obj_in_sink(a)': 'check whether object a is in sink or not'}
+Goal: Wash the plate and move it out of the sink.
+Output:
+{
+    "Reasoning": "The goal directly captures two symbolic literals, obj_washed(plate) and obj_in_sink(plate). As predicate obj_in_sink(a) is available, we only need to invent predicate obj_washed(a).",
+    "Invented predicates": {
+        "obj_washed(a)": "check whether object a is washed or not"
+    },
+    "Symbolic goal": {
+        "obj_washed(plate)": true,
+        "obj_in_sink(plate)": false
+    }
+}
+
+{domain_desc}
+Available objects: {entities}
+Available predicates: {predicates}
+Goal: {goal_spec}
+Please give the output following the format in the examples, and make sure to include all fields of the json in your outputs.
+Output (please don't output ```json):

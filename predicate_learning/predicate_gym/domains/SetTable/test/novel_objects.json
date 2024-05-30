@@ -1,0 +1,319 @@
+{
+  "1": {
+    "objects": {
+      "placemat": [
+        -5,
+        0
+      ],
+      "plate": [
+        3.1999999999999993,
+        0
+      ],
+      "candybar": [
+        -12.515436129632185,
+        0.0
+      ],
+      "sausage": [
+        22.674480383001452,
+        0.0
+      ],
+      "bread": [
+        -4.665182072466088,
+        0.4
+      ]
+    },
+    "goal_text": "Stack plate on placemat.",
+    "goal_lits_gt": [
+      [
+        "on",
+        "plate",
+        "placemat"
+      ]
+    ]
+  },
+  "2": {
+    "objects": {
+      "placemat": [
+        -5,
+        0
+      ],
+      "plate": [
+        3.1999999999999993,
+        0
+      ],
+      "candybar": [
+        -37.297456384308475,
+        0.0
+      ],
+      "sausage": [
+        -24.29169286235814,
+        0.0
+      ],
+      "bread": [
+        -3.8757177187004017,
+        0.4
+      ]
+    },
+    "goal_text": "Stack bread on plate.",
+    "goal_lits_gt": [
+      [
+        "on",
+        "bread",
+        "plate"
+      ]
+    ]
+  },
+  "3": {
+    "objects": {
+      "placemat": [
+        -5,
+        0
+      ],
+      "plate": [
+        3.1999999999999993,
+        0
+      ],
+      "candybar": [
+        3.3289421711379097,
+        1.5
+      ],
+      "sausage": [
+        -17.003098945984195,
+        0.0
+      ],
+      "bread": [
+        -22.219554986034492,
+        0.0
+      ]
+    },
+    "goal_text": "Put candybar on the table.",
+    "goal_lits_gt": [
+      [
+        "on_table",
+        "candybar"
+      ]
+    ]
+  },
+  "4": {
+    "objects": {
+      "placemat": [
+        -5,
+        0
+      ],
+      "plate": [
+        3.1999999999999993,
+        0
+      ],
+      "candybar": [
+        -30.641582035809396,
+        0.0
+      ],
+      "sausage": [
+        -37.939636876068825,
+        0.0
+      ],
+      "bread": [
+        20.61232421473595,
+        0.0
+      ]
+    },
+    "goal_text": "Stack plate on placemat.",
+    "goal_lits_gt": [
+      [
+        "on",
+        "plate",
+        "placemat"
+      ]
+    ]
+  },
+  "5": {
+    "objects": {
+      "placemat": [
+        -5,
+        0
+      ],
+      "plate": [
+        -13.2,
+        0
+      ],
+      "candybar": [
+        15.89998992619741,
+        0.0
+      ],
+      "sausage": [
+        -3.8028680639588863,
+        0.4
+      ],
+      "bread": [
+        -36.71533570881536,
+        0.0
+      ]
+    },
+    "goal_text": "Stack sausage on plate.",
+    "goal_lits_gt": [
+      [
+        "on",
+        "sausage",
+        "plate"
+      ]
+    ]
+  },
+  "6": {
+    "objects": {
+      "placemat": [
+        -5,
+        0
+      ],
+      "plate": [
+        -13.2,
+        0
+      ],
+      "candybar": [
+        16.223766597827606,
+        0.0
+      ],
+      "sausage": [
+        -33.34248307385689,
+        0.0
+      ],
+      "bread": [
+        -13.553560838243554,
+        1.5
+      ]
+    },
+    "goal_text": "Put bread on the table.",
+    "goal_lits_gt": [
+      [
+        "on_table",
+        "bread"
+      ]
+    ]
+  },
+  "7": {
+    "objects": {
+      "placemat": [
+        -5,
+        0
+      ],
+      "plate": [
+        -13.2,
+        0
+      ],
+      "candybar": [
+        18.292721910334535,
+        0.0
+      ],
+      "sausage": [
+        -24.008107345054707,
+        0.0
+      ],
+      "bread": [
+        7.759896324427808,
+        0.0
+      ]
+    },
+    "goal_text": "Stack plate on placemat.",
+    "goal_lits_gt": [
+      [
+        "on",
+        "plate",
+        "placemat"
+      ]
+    ]
+  },
+  "8": {
+    "objects": {
+      "placemat": [
+        -5,
+        0
+      ],
+      "plate": [
+        -13.2,
+        0
+      ],
+      "candybar": [
+        -36.480562258255944,
+        0.0
+      ],
+      "sausage": [
+        -23.983289786560707,
+        0.0
+      ],
+      "bread": [
+        12.79192677430217,
+        0.0
+      ]
+    },
+    "goal_text": "Stack sausage on placemat.",
+    "goal_lits_gt": [
+      [
+        "on",
+        "sausage",
+        "placemat"
+      ]
+    ]
+  },
+  "9": {
+    "objects": {
+      "placemat": [
+        -5,
+        0
+      ],
+      "plate": [
+        3.1999999999999993,
+        0
+      ],
+      "candybar": [
+        2.929356427567601,
+        1.5
+      ],
+      "sausage": [
+        11.494179094118973,
+        0.0
+      ],
+      "bread": [
+        -30.74176354738188,
+        0.0
+      ]
+    },
+    "goal_text": "Put candybar on the table.",
+    "goal_lits_gt": [
+      [
+        "on_table",
+        "candybar"
+      ]
+    ]
+  },
+  "10": {
+    "objects": {
+      "placemat": [
+        -5,
+        0
+      ],
+      "plate": [
+        3.1999999999999993,
+        0
+      ],
+      "candybar": [
+        18.322329404727686,
+        0.0
+      ],
+      "sausage": [
+        -35.68169889395044,
+        0.0
+      ],
+      "bread": [
+        -26.53532828843762,
+        0.0
+      ]
+    },
+    "goal_text": "Stack plate on placemat.",
+    "goal_lits_gt": [
+      [
+        "on",
+        "plate",
+        "placemat"
+      ]
+    ]
+  }
+}

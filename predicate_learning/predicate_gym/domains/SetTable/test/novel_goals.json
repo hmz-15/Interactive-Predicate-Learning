@@ -1,0 +1,382 @@
+{
+  "1": {
+    "objects": {
+      "placemat": [
+        -5,
+        0
+      ],
+      "plate": [
+        3.1999999999999993,
+        0
+      ],
+      "candybar": [
+        14.179204740082834,
+        0.0
+      ],
+      "bread": [
+        -5.491461393776746,
+        0.4
+      ]
+    },
+    "goal_text": "Set a breakfast table with plate on placemat, bread on plate, candybar on bread.",
+    "goal_lits_gt": [
+      [
+        "on",
+        "plate",
+        "placemat"
+      ],
+      [
+        "on",
+        "bread",
+        "plate"
+      ],
+      [
+        "on",
+        "candybar",
+        "bread"
+      ]
+    ]
+  },
+  "2": {
+    "objects": {
+      "placemat": [
+        -5,
+        0
+      ],
+      "plate": [
+        3.1999999999999993,
+        0
+      ],
+      "candybar": [
+        -4.49489978774854,
+        0.4
+      ],
+      "bread": [
+        -29.057628961680926,
+        0.0
+      ]
+    },
+    "goal_text": "Set a breakfast table with plate on placemat, bread on plate, candybar on bread.",
+    "goal_lits_gt": [
+      [
+        "on",
+        "plate",
+        "placemat"
+      ],
+      [
+        "on",
+        "bread",
+        "plate"
+      ],
+      [
+        "on",
+        "candybar",
+        "bread"
+      ]
+    ]
+  },
+  "3": {
+    "objects": {
+      "placemat": [
+        -5,
+        0
+      ],
+      "plate": [
+        -13.2,
+        0
+      ],
+      "candybar": [
+        -4.8834141857359885,
+        0.4
+      ],
+      "bread": [
+        16.31502872879402,
+        0.0
+      ]
+    },
+    "goal_text": "Set a breakfast table with plate on placemat, bread on plate, candybar on bread.",
+    "goal_lits_gt": [
+      [
+        "on",
+        "plate",
+        "placemat"
+      ],
+      [
+        "on",
+        "bread",
+        "plate"
+      ],
+      [
+        "on",
+        "candybar",
+        "bread"
+      ]
+    ]
+  },
+  "4": {
+    "objects": {
+      "placemat": [
+        -5,
+        0
+      ],
+      "plate": [
+        3.1999999999999993,
+        0
+      ],
+      "candybar": [
+        -33.99811715934373,
+        0.0
+      ],
+      "bread": [
+        -4.801291153100693,
+        0.4
+      ]
+    },
+    "goal_text": "Set a breakfast table with plate on placemat, bread on plate, candybar on bread.",
+    "goal_lits_gt": [
+      [
+        "on",
+        "plate",
+        "placemat"
+      ],
+      [
+        "on",
+        "bread",
+        "plate"
+      ],
+      [
+        "on",
+        "candybar",
+        "bread"
+      ]
+    ]
+  },
+  "5": {
+    "objects": {
+      "placemat": [
+        -5,
+        0
+      ],
+      "plate": [
+        3.1999999999999993,
+        0
+      ],
+      "candybar": [
+        -5.841609284344541,
+        0.4
+      ],
+      "bread": [
+        -19.842082445165275,
+        0.0
+      ]
+    },
+    "goal_text": "Set a breakfast table with plate on placemat, bread on plate, candybar on bread.",
+    "goal_lits_gt": [
+      [
+        "on",
+        "plate",
+        "placemat"
+      ],
+      [
+        "on",
+        "bread",
+        "plate"
+      ],
+      [
+        "on",
+        "candybar",
+        "bread"
+      ]
+    ]
+  },
+  "6": {
+    "objects": {
+      "placemat": [
+        -5,
+        0
+      ],
+      "plate": [
+        -13.2,
+        0
+      ],
+      "candybar": [
+        -3.297727541132619,
+        0.4
+      ],
+      "bread": [
+        -20.1398726807878,
+        0.0
+      ]
+    },
+    "goal_text": "Set a breakfast table with plate on placemat, bread on plate, candybar on bread.",
+    "goal_lits_gt": [
+      [
+        "on",
+        "plate",
+        "placemat"
+      ],
+      [
+        "on",
+        "bread",
+        "plate"
+      ],
+      [
+        "on",
+        "candybar",
+        "bread"
+      ]
+    ]
+  },
+  "7": {
+    "objects": {
+      "placemat": [
+        -5,
+        0
+      ],
+      "plate": [
+        3.1999999999999993,
+        0
+      ],
+      "candybar": [
+        -29.258639840404626,
+        0.0
+      ],
+      "bread": [
+        -4.381987355682697,
+        0.4
+      ]
+    },
+    "goal_text": "Set a breakfast table with plate on placemat, bread on plate, candybar on bread.",
+    "goal_lits_gt": [
+      [
+        "on",
+        "plate",
+        "placemat"
+      ],
+      [
+        "on",
+        "bread",
+        "plate"
+      ],
+      [
+        "on",
+        "candybar",
+        "bread"
+      ]
+    ]
+  },
+  "8": {
+    "objects": {
+      "placemat": [
+        -5,
+        0
+      ],
+      "plate": [
+        -13.2,
+        0
+      ],
+      "candybar": [
+        -28.11008099456832,
+        0.0
+      ],
+      "bread": [
+        -6.433481623942113,
+        0.4
+      ]
+    },
+    "goal_text": "Set a breakfast table with plate on placemat, bread on plate, candybar on bread.",
+    "goal_lits_gt": [
+      [
+        "on",
+        "plate",
+        "placemat"
+      ],
+      [
+        "on",
+        "bread",
+        "plate"
+      ],
+      [
+        "on",
+        "candybar",
+        "bread"
+      ]
+    ]
+  },
+  "9": {
+    "objects": {
+      "placemat": [
+        -5,
+        0
+      ],
+      "plate": [
+        3.1999999999999993,
+        0
+      ],
+      "candybar": [
+        -3.9632620331807558,
+        0.4
+      ],
+      "bread": [
+        -12.14442559260926,
+        0.0
+      ]
+    },
+    "goal_text": "Set a breakfast table with plate on placemat, bread on plate, candybar on bread.",
+    "goal_lits_gt": [
+      [
+        "on",
+        "plate",
+        "placemat"
+      ],
+      [
+        "on",
+        "bread",
+        "plate"
+      ],
+      [
+        "on",
+        "candybar",
+        "bread"
+      ]
+    ]
+  },
+  "10": {
+    "objects": {
+      "placemat": [
+        -5,
+        0
+      ],
+      "plate": [
+        3.1999999999999993,
+        0
+      ],
+      "candybar": [
+        -3.979659672552835,
+        0.4
+      ],
+      "bread": [
+        -24.88519079558133,
+        0.0
+      ]
+    },
+    "goal_text": "Set a breakfast table with plate on placemat, bread on plate, candybar on bread.",
+    "goal_lits_gt": [
+      [
+        "on",
+        "plate",
+        "placemat"
+      ],
+      [
+        "on",
+        "bread",
+        "plate"
+      ],
+      [
+        "on",
+        "candybar",
+        "bread"
+      ]
+    ]
+  }
+}

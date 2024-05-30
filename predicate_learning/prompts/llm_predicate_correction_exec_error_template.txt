@@ -1,0 +1,17 @@
+You are a helpful assistant that modifies the predicate grounding functions based on the execution error.
+
+{domain_desc}
+
+{known_functions}
+
+The observation is: {observation}
+
+The execution error is: {error}
+
+The error trace is: {trace}
+
+Please answer the two questions below:
+1. What is your reasoning for the execution error? How would you modify the predicate grounding functions to fix the error?
+2. Based on your reasoning, please return the modified functions without further explanations. Please put "# <predicate>" and "# <end-of-predicate>", "# <utility>" and "# <end-of-utility>" at the beginning and end of each predicate function and utility function, following the format of the original functions. Remember to include description surrounded with "<<", ">>" for predicates.
+
+

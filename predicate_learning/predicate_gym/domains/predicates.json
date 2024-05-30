@@ -1,0 +1,122 @@
+{
+    "is_graspable": {
+        "raw": "is_graspable(a)",
+        "text": "<arg1> is graspable",
+        "precondition_explain": [
+            "object <arg1> can not be grasped by the gripper as it is too wide",
+            "object <arg1> is too large for the gripper to pick up",
+            "you can't pick up object <arg1> because it is too large"
+        ],
+        "non_goal_explain": ["object <arg1> can not be grasped"]
+    },
+    "is_thin": {
+        "raw": "is_thin(a)",
+        "text": "<arg1> is thin",
+        "precondition_explain": [
+            "object <arg1> is not thin enough as its height is greater than 1.0",
+            "object <arg1> has height larger than 1.0, thus you can't push other objects on it",
+            "you can't push an object onto object <arg1> because it is not thin enough (with height < 1.0)"
+        ],
+        "non_goal_explain": ["object <arg1> is not thin"]
+    },
+    "on_table": {
+        "raw": "on_table(a)",
+        "text": "<arg1> is on the table",
+        "precondition_explain": ["object <arg1> is not on the table"],
+        "non_goal_explain": [
+            "object <arg1> is not on the table",
+            "object <arg1> is not yet on table",
+            "you haven't put object <arg1> on table"
+        ]
+    },
+    "in_gripper": {
+        "raw": "in_gripper(a)",
+        "text": "<arg1> is in the gripper",
+        "precondition_explain": ["object <arg1> is not held by the gripper", "the gripper does not hold object <arg1>", "object <arg1> is not in the gripper"],
+        "non_goal_explain": ["object <arg1> is not in the gripper"]
+    },
+    "gripper_empty": {
+        "raw": "gripper_empty()",
+        "text": "the gripper is empty",
+        "precondition_explain": [
+            "the gripper is already occupied",
+            "the gripper already held an object",
+            "the gripper has an object in hand and can't pick up more objects"
+        ],
+        "non_goal_explain": ["the gripper is occupied"]
+    },
+    "on": {
+        "raw": "on(a, b)",
+        "text": "<arg1> is on <arg2>",
+        "precondition_explain": ["object <arg1> is not on object <arg2>"],
+        "non_goal_explain": [
+            "object <arg1> is not on object <arg2>",
+            "object <arg1> has not been put on object <arg2>",
+            "you haven't put object <arg1> on object <arg2>"
+        ]
+    },
+    "clear_on_top": {
+        "raw": "clear_on_top(a)",
+        "text": "<arg1> is clear on top",
+        "precondition_explain": [
+            "there is something on object <arg1>",
+            "object <arg1> has another object on its top",
+            "there is another object on object <arg1> so you can't pick it up"
+        ],
+        "non_goal_explain": ["object <arg1> is not clear on top"]
+    },
+    "is_container": {
+        "raw": "is_container(a)",
+        "text": "<arg1> is a container",
+        "precondition_explain": ["object <arg1> is not a container, only objects with category cup, pot, and basket are containers"],
+        "non_goal_explain": ["object <arg1> is not a container"]
+    },
+    "has_water": {
+        "raw": "has_water(a)",
+        "text": "<arg1> has water",
+        "precondition_explain": ["object <arg1> does not contain water"],
+        "non_goal_explain": ["object <arg1> does not contain water"]
+    },
+    "has_no_water": {
+        "raw": "has_no_water(a)",
+        "text": "<arg1> has no water",
+        "precondition_explain": ["object <arg1> already contains water"],
+        "non_goal_explain": ["object <arg1> contains water"]
+    },
+    "inside_container": {
+        "raw": "inside_container(a, b)",
+        "text": "<arg1> is inside <arg2>",
+        "precondition_explain": ["object <arg1> is not inside object <arg2>"],
+        "non_goal_explain": ["object <arg1> is not inside object <arg2>"]
+    },
+    "is_food": {
+        "raw": "is_food(a)",
+        "text": "<arg1> is food",
+        "precondition_explain": ["object <arg1> is not food"],
+        "non_goal_explain": ["object <arg1> is not food"]
+    },
+    "not_in_container": {
+        "raw": "not_in_container(a)",
+        "text": "<arg1> is not inside a container",
+        "precondition_explain": ["object <arg1> is inside another container"],
+        "non_goal_explain": ["object <arg1> is inside another container"]
+    },
+    "can_contain_food": {
+        "raw": "can_contain_food(a)",
+        "text": "<arg1> can contain food",
+        "precondition_explain": ["object <arg1> can not contain food as it's too small, i.e., its width is smaller than 10"],
+        "non_goal_explain": ["object <arg1> can not contain food"]
+    },
+    "is_plate": {
+        "raw": "is_plate(a)",
+        "text": "<arg1> is a plate",
+        "precondition_explain": ["object <arg1> is not a plate"],
+        "non_goal_explain": ["object <arg1> is not a plate"]
+    },
+    "is_dinningplace": {
+        "raw": "is_dinningplace(a)",
+        "text": "<arg1> is a dinning place",
+        "precondition_explain": ["object <arg1> is not a dinning place, only plate and placemat are dinning places"],
+        "non_goal_explain": ["object <arg1> is not a dinning place"]
+    }
+}

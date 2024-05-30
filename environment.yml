@@ -1,0 +1,28 @@
+name: interactive_predicate_learning
+
+channels:
+- anaconda
+- nvidia
+- pytorch
+- conda-forge
+
+dependencies:
+  - python=3.9
+  - pytorch::pytorch
+  - pip
+  - numpy
+  - scipy
+  - matplotlib
+  - pyyaml
+  - conda-forge::pybox2d
+  - pip:
+    - pygame
+    - opencv-python
+    - termcolor
+    - tabulate
+    - hydra-core
+    - retry
+    - openai==0.27.1
+    - pddlgym
+    - astunparse
+    - git+https://github.com/hmz-15/pddlgym_planners.git

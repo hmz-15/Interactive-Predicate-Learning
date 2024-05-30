@@ -1,0 +1,25 @@
+# base config for running a predicate gym world with agent
+
+# max number of steps per episode
+max_steps: 20
+
+# max number of repeated failed steps (we think the agent is stuck)
+max_repeated_failed_steps: 5
+
+# random seed
+seed: 42
+
+# render
+render: True
+
+# whether stop on failure action (for test mode)
+max_failed_steps_on_test: 1
+
+# whether overwrite saved task instances in json
+overwrite_instances: False
+
+# load agent knowledge (enabled automatically on test)
+load_agent_knowledge: False
+
+# use sampled diverse feedback
+use_diverse_feedback: False

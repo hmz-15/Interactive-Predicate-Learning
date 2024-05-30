@@ -1,0 +1,91 @@
+world: StoreObjects
+
+# task instances
+instances_list:  
+  # train instances (for corection planning)
+  train:
+    train:
+      num_instances: 10
+      task_spec:
+        known_objects: ["shelf", "fruitcan", "coaster", "tomatocan"]
+        # first sample goal semantics, then specific goal item
+        goals: # start with "primitive"
+          primitive_put_on_shelf: 
+          - [["on", "fruitcan", "shelf"]]
+          - [["on", "coaster", "shelf"]]
+          - [["on", "tomatocan", "shelf"]]
+          primitive_put_on_object:
+          - [["on", "fruitcan", "coaster"]]
+          - [["on", "tomatocan", "coaster"]]
+          - [["on", "tomatocan", "fruitcan"]]
+          primitive_put_on_table:
+          - [["on_table", "fruitcan"]]
+          - [["on_table", "coaster"]]
+          - [["on_table", "tomatocan"]]
+  
+  # test instances (for generalization)
+  test:
+    canonical:
+      num_instances: 10
+      task_spec:
+        known_objects: ["shelf", "fruitcan", "coaster", "tomatocan"]
+        # first sample goal semantics, then specific goal item
+        goals: # start with "primitive"
+          primitive_put_on_shelf: 
+          - [["on", "fruitcan", "shelf"]]
+          - [["on", "coaster", "shelf"]]
+          - [["on", "tomatocan", "shelf"]]
+          primitive_put_on_object:
+          - [["on", "fruitcan", "coaster"]]
+          - [["on", "tomatocan", "coaster"]]
+          - [["on", "tomatocan", "fruitcan"]]
+          primitive_put_on_table:
+          - [["on_table", "fruitcan"]]
+          - [["on_table", "coaster"]]
+          - [["on_table", "tomatocan"]]
+
+    novel_objects:
+      num_instances: 10
+      task_spec:
+        known_objects: ["shelf", "fruitcan", "coaster", "tomatocan", "beancan", "tunacan"]
+        # first sample goal semantics, then specific goal item
+        goals: # start with "primitive"
+          primitive_put_on_shelf: 
+          - [["on", "fruitcan", "shelf"]]
+          - [["on", "coaster", "shelf"]]
+          - [["on", "tomatocan", "shelf"]]
+          - [["on", "beancan", "shelf"]]
+          - [["on", "tunacan", "shelf"]]
+          primitive_put_on_object:
+          - [["on", "fruitcan", "coaster"]]
+          - [["on", "tomatocan", "coaster"]]
+          - [["on", "tunacan", "coaster"]]
+          - [["on", "beancan", "coaster"]]
+          - [["on", "beancan", "fruitcan"]]
+          - [["on", "tomatocan", "beancan"]]
+          - [["on", "fruitcan", "tomatocan"]]
+          - [["on", "tunacan", "fruitcan"]]
+          primitive_put_on_table:
+          - [["on_table", "fruitcan"]]
+          - [["on_table", "coaster"]]
+          - [["on_table", "tomatocan"]]
+          - [["on_table", "beancan"]]
+          - [["on_table", "tunacan"]]
+
+    novel_goals:
+      num_instances: 10
+      task_spec:
+        known_objects: ["shelf", "fruitcan", "coaster", "tomatocan"]
+        # first sample goal semantics, then specific goal item
+        goals: # start with "full"
+          full:
+          - [["on", "coaster", "shelf"], ["on", "fruitcan", "coaster"], ["on", "tomatocan", "fruitcan"]]
+
+    combined:
+      num_instances: 10
+      task_spec:
+        known_objects:  ["shelf", "fruitcan", "coaster", "tomatocan", "beancan", "tunacan"]
+        # first sample goal semantics, then specific goal item
+        goals: # start with "full"
+          full:
+          - [["on", "coaster", "shelf"], ["on", "fruitcan", "coaster"], ["on", "tomatocan", "fruitcan"], ["on", "beancan", "tomatocan"], ["on", "tunacan", "beancan"]]

@@ -1,0 +1,20 @@
+# prompt dir
+prompt_dir: "predicate_learning/prompts"
+
+# example predicate prompt
+example_predicate_prompt_file: "predicate_learning/prompts/llm_example_predicates.py"
+
+# domain dir
+domain_dir: "predicate_learning/predicate_gym/domains"
+
+# exploration prob
+random_act_prob: 0.3
+
+# use gpt-4
+use_gpt_4: True
+
+# save demo traj
+save_demo_traj: False
+
+# use few_shot demos
+use_few_shot_demos: False

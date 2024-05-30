@@ -1,0 +1,22 @@
+# run single mode config
+
+defaults:
+  - world: StoreObjects
+  - agent: RandomPlanAgent
+  - run_base
+  - _self_
+
+# runner
+runner: CaPSingleModeRunner
+
+# train / test / random
+mode: "test"
+
+# saved dir
+save_dir: saved_runs/run_${mode}/${now:%Y-%m-%d-%H-%M-%S}/${world.world}_${agent.agent}
+
+# disable hydra saving
+hydra:  
+  output_subdir: null  
+  run:  
+    dir: ${save_dir}

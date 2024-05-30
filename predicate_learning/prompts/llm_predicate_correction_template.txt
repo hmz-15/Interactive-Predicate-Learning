@@ -1,0 +1,12 @@
+You are a helpful assistant that modifies the predicate functions based on correction from human. You can introduce new utility functions and predicates in your modification when necessary. Note that the inconsistency might not due to the direct implementation of the predicate, but other predicate functions or utility functions it depends on. If this is the case, you need to modify its dependent predicates andutility functions.
+{domain_desc} The current predicate functions are below.
+
+{known_functions}
+
+The observation is: {observation}
+
+The human correction is: {correction}
+
+Please answer the two questions below:
+1. What is your reasoning for the human corection? Which part of the predicate functions is wrong? How would you modify the predicate grounding functions to reflect the correction?
+2. Based on your reasoning, please return the modified functions without further explanations. Please put "# <predicate>" and "# <end-of-predicate>", "# <utility>" and "# <end-of-utility>" at the beginning and end of each predicate function and utility function, following the format of the original functions. Remember to include description surrounded with "<<", ">>" for predicates.

@@ -1,0 +1,322 @@
+{
+  "1": {
+    "objects": {
+      "pot": [
+        -5,
+        0
+      ],
+      "cup": [
+        -17.560135269122704,
+        0.0
+      ],
+      "sausage": [
+        16.48251005829011,
+        0.0
+      ]
+    },
+    "goal_text": "Pour water and put sausage in pot.",
+    "goal_lits_gt": [
+      [
+        "has_water",
+        "pot"
+      ],
+      [
+        "inside_container",
+        "sausage",
+        "pot"
+      ],
+      [
+        "on_table",
+        "pot"
+      ]
+    ]
+  },
+  "2": {
+    "objects": {
+      "pot": [
+        -5,
+        0
+      ],
+      "cup": [
+        -34.65455786756828,
+        0.0
+      ],
+      "sausage": [
+        -17.760393634464634,
+        0.0
+      ]
+    },
+    "goal_text": "Pour water and put sausage in pot.",
+    "goal_lits_gt": [
+      [
+        "has_water",
+        "pot"
+      ],
+      [
+        "inside_container",
+        "sausage",
+        "pot"
+      ],
+      [
+        "on_table",
+        "pot"
+      ]
+    ]
+  },
+  "3": {
+    "objects": {
+      "pot": [
+        -5,
+        0
+      ],
+      "cup": [
+        18.190278259412715,
+        0.0
+      ],
+      "sausage": [
+        -16.677329227833507,
+        0.0
+      ]
+    },
+    "goal_text": "Pour water and put sausage in pot.",
+    "goal_lits_gt": [
+      [
+        "has_water",
+        "pot"
+      ],
+      [
+        "inside_container",
+        "sausage",
+        "pot"
+      ],
+      [
+        "on_table",
+        "pot"
+      ]
+    ]
+  },
+  "4": {
+    "objects": {
+      "pot": [
+        -5,
+        0
+      ],
+      "cup": [
+        10.00571871729834,
+        0.0
+      ],
+      "sausage": [
+        -34.381564483199206,
+        0.0
+      ]
+    },
+    "goal_text": "Pour water and put sausage in pot.",
+    "goal_lits_gt": [
+      [
+        "has_water",
+        "pot"
+      ],
+      [
+        "inside_container",
+        "sausage",
+        "pot"
+      ],
+      [
+        "on_table",
+        "pot"
+      ]
+    ]
+  },
+  "5": {
+    "objects": {
+      "pot": [
+        -5,
+        0
+      ],
+      "cup": [
+        -26.722489155590566,
+        0.0
+      ],
+      "sausage": [
+        11.099422244867714,
+        0.0
+      ]
+    },
+    "goal_text": "Pour water and put sausage in pot.",
+    "goal_lits_gt": [
+      [
+        "has_water",
+        "pot"
+      ],
+      [
+        "inside_container",
+        "sausage",
+        "pot"
+      ],
+      [
+        "on_table",
+        "pot"
+      ]
+    ]
+  },
+  "6": {
+    "objects": {
+      "pot": [
+        -5,
+        0
+      ],
+      "cup": [
+        8.80304363936521,
+        0.0
+      ],
+      "sausage": [
+        -30.263194907459,
+        0.0
+      ]
+    },
+    "goal_text": "Pour water and put sausage in pot.",
+    "goal_lits_gt": [
+      [
+        "has_water",
+        "pot"
+      ],
+      [
+        "inside_container",
+        "sausage",
+        "pot"
+      ],
+      [
+        "on_table",
+        "pot"
+      ]
+    ]
+  },
+  "7": {
+    "objects": {
+      "pot": [
+        -5,
+        0
+      ],
+      "cup": [
+        -21.120865070436277,
+        0.0
+      ],
+      "sausage": [
+        -32.39619737627214,
+        0.0
+      ]
+    },
+    "goal_text": "Pour water and put sausage in pot.",
+    "goal_lits_gt": [
+      [
+        "has_water",
+        "pot"
+      ],
+      [
+        "inside_container",
+        "sausage",
+        "pot"
+      ],
+      [
+        "on_table",
+        "pot"
+      ]
+    ]
+  },
+  "8": {
+    "objects": {
+      "pot": [
+        -5,
+        0
+      ],
+      "cup": [
+        7.2668963140071625,
+        0.0
+      ],
+      "sausage": [
+        -34.67150197579907,
+        0.0
+      ]
+    },
+    "goal_text": "Pour water and put sausage in pot.",
+    "goal_lits_gt": [
+      [
+        "has_water",
+        "pot"
+      ],
+      [
+        "inside_container",
+        "sausage",
+        "pot"
+      ],
+      [
+        "on_table",
+        "pot"
+      ]
+    ]
+  },
+  "9": {
+    "objects": {
+      "pot": [
+        -5,
+        0
+      ],
+      "cup": [
+        -17.599472093680802,
+        0.0
+      ],
+      "sausage": [
+        20.155037565519237,
+        0.0
+      ]
+    },
+    "goal_text": "Pour water and put sausage in pot.",
+    "goal_lits_gt": [
+      [
+        "has_water",
+        "pot"
+      ],
+      [
+        "inside_container",
+        "sausage",
+        "pot"
+      ],
+      [
+        "on_table",
+        "pot"
+      ]
+    ]
+  },
+  "10": {
+    "objects": {
+      "pot": [
+        -5,
+        0
+      ],
+      "cup": [
+        -35.90907282772268,
+        0.0
+      ],
+      "sausage": [
+        13.707070165380419,
+        0.0
+      ]
+    },
+    "goal_text": "Pour water and put sausage in pot.",
+    "goal_lits_gt": [
+      [
+        "has_water",
+        "pot"
+      ],
+      [
+        "inside_container",
+        "sausage",
+        "pot"
+      ],
+      [
+        "on_table",
+        "pot"
+      ]
+    ]
+  }
+}

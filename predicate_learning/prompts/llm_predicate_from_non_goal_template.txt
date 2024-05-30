@@ -1,0 +1,19 @@
+You are a helpful assistant that translates human explanations of the current state into symbolic literals, using the available predicates. The human explanations are about why the goal is not achieved in the current state.
+
+Example:
+Available objects: ['cup', 'block', 'plate']
+Available predicates: {'holding(x)': 'check whether the gripper is holding x or not', 'in_sink(x)': 'check whether x is in sink or not'}
+Human explanation: The cup is not in the sink, and it is held by the gripper.
+Output:
+{
+    "Current state": {
+        "holding(cup)": true,
+        "in_sink(cup)": false
+    }
+}
+
+{domain_desc}
+Available objects: {entities}
+Available predicates: {predicates}
+Human explanation: {human_explain}
+Output (please don't output ```json):

@@ -1,0 +1,279 @@
+{
+  "1": {
+    "objects": {
+      "placemat": [
+        -5,
+        0
+      ],
+      "plate": [
+        -13.2,
+        0
+      ],
+      "candybar": [
+        -29.40780346404426,
+        0.0
+      ],
+      "bread": [
+        23.09635770025299,
+        0.0
+      ]
+    },
+    "goal_text": "Stack bread on placemat.",
+    "goal_lits_gt": [
+      [
+        "on",
+        "bread",
+        "placemat"
+      ]
+    ]
+  },
+  "2": {
+    "objects": {
+      "placemat": [
+        -5,
+        0
+      ],
+      "plate": [
+        3.1999999999999993,
+        0
+      ],
+      "candybar": [
+        -25.36819029861234,
+        0.0
+      ],
+      "bread": [
+        -4.446896824584559,
+        0.4
+      ]
+    },
+    "goal_text": "Stack plate on placemat.",
+    "goal_lits_gt": [
+      [
+        "on",
+        "plate",
+        "placemat"
+      ]
+    ]
+  },
+  "3": {
+    "objects": {
+      "placemat": [
+        -5,
+        0
+      ],
+      "plate": [
+        -13.2,
+        0
+      ],
+      "candybar": [
+        -38.083111176860925,
+        0.0
+      ],
+      "bread": [
+        -12.386928032962704,
+        1.5
+      ]
+    },
+    "goal_text": "Put bread on the table.",
+    "goal_lits_gt": [
+      [
+        "on_table",
+        "bread"
+      ]
+    ]
+  },
+  "4": {
+    "objects": {
+      "placemat": [
+        -5,
+        0
+      ],
+      "plate": [
+        3.1999999999999993,
+        0
+      ],
+      "candybar": [
+        -20.53506208466846,
+        0.0
+      ],
+      "bread": [
+        -34.96847285362926,
+        0.0
+      ]
+    },
+    "goal_text": "Stack candybar on placemat.",
+    "goal_lits_gt": [
+      [
+        "on",
+        "candybar",
+        "placemat"
+      ]
+    ]
+  },
+  "5": {
+    "objects": {
+      "placemat": [
+        -5,
+        0
+      ],
+      "plate": [
+        -13.2,
+        0
+      ],
+      "candybar": [
+        4.293684114794734,
+        0.0
+      ],
+      "bread": [
+        20.491470889212493,
+        0.0
+      ]
+    },
+    "goal_text": "Stack plate on placemat.",
+    "goal_lits_gt": [
+      [
+        "on",
+        "plate",
+        "placemat"
+      ]
+    ]
+  },
+  "6": {
+    "objects": {
+      "placemat": [
+        -5,
+        0
+      ],
+      "plate": [
+        -13.2,
+        0
+      ],
+      "candybar": [
+        -12.205550597901254,
+        1.5
+      ],
+      "bread": [
+        8.937469077893871,
+        0.0
+      ]
+    },
+    "goal_text": "Put candybar on the table.",
+    "goal_lits_gt": [
+      [
+        "on_table",
+        "candybar"
+      ]
+    ]
+  },
+  "7": {
+    "objects": {
+      "placemat": [
+        -5,
+        0
+      ],
+      "plate": [
+        -13.2,
+        0
+      ],
+      "candybar": [
+        4.555457110696491,
+        0.0
+      ],
+      "bread": [
+        -29.83089264851872,
+        0.0
+      ]
+    },
+    "goal_text": "Stack bread on placemat.",
+    "goal_lits_gt": [
+      [
+        "on",
+        "bread",
+        "placemat"
+      ]
+    ]
+  },
+  "8": {
+    "objects": {
+      "placemat": [
+        -5,
+        0
+      ],
+      "plate": [
+        -13.2,
+        0
+      ],
+      "candybar": [
+        8.807938652849518,
+        0.0
+      ],
+      "bread": [
+        -3.482592487664204,
+        0.4
+      ]
+    },
+    "goal_text": "Stack plate on placemat.",
+    "goal_lits_gt": [
+      [
+        "on",
+        "plate",
+        "placemat"
+      ]
+    ]
+  },
+  "9": {
+    "objects": {
+      "placemat": [
+        -5,
+        0
+      ],
+      "plate": [
+        -13.2,
+        0
+      ],
+      "candybar": [
+        -14.270388955411512,
+        1.5
+      ],
+      "bread": [
+        17.873421975027235,
+        0.0
+      ]
+    },
+    "goal_text": "Put candybar on the table.",
+    "goal_lits_gt": [
+      [
+        "on_table",
+        "candybar"
+      ]
+    ]
+  },
+  "10": {
+    "objects": {
+      "placemat": [
+        -5,
+        0
+      ],
+      "plate": [
+        -13.2,
+        0
+      ],
+      "candybar": [
+        -31.592932534535862,
+        0.0
+      ],
+      "bread": [
+        -38.373080987477834,
+        0.0
+      ]
+    },
+    "goal_text": "Stack candybar on placemat.",
+    "goal_lits_gt": [
+      [
+        "on",
+        "candybar",
+        "placemat"
+      ]
+    ]
+  }
+}

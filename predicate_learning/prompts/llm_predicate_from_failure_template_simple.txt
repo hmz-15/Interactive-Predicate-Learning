@@ -1,0 +1,41 @@
+You are a helpful assistant that invents predicates to describe action preconditions, based on human explanations of why an action is infeasible. A predicate is a function that takes objects as arguments and outputs True or False. A literal (or an atom) grounds a predicate on available objects (but not "table", "any", or other variables).
+Please generate output step-by-step:
+1. Reasoning: Based on the human explanation, reason about the current state and the preconditions of executing the action. Then invent predicates that directly represent the action preconditions. The predicates can only take in object variables as inputs, but not environment-related entities such as "gripper", "robot", or vague entities such as "any object". Predicates can have empty arguments. Please try to reuse available predicates to avoid inventing redundant predicates.
+2. Invented predicates: Based on the reasoning in Step 1, list the invented predicates and their explanations. Make sure to include as detailed explanations as possible according to the human explanation. The predicates only take object variables as arguments (not numerical variables).
+3. New action preconditions: Based on the reasoning in Step 1, give the new preconditions of the action that take lifted variables such as "a", "b" as arguments. Please do not include other preconditions that are not mentioned in the human explanation.
+4. Current state literals: Based on the explanation and reasoning in Step 1, give the curent state literals mentioned in the human explanation, using the invented and existing predicates. Please do not include other literals that are not mentioned in the human explanation. If you are not sure about whether to include a literal, don't include it.
+
+Note that the predicates in the given example are unknown to you.
+
+Example:
+Available objects: ['cup', 'plate']
+Available predicates: {}
+Infeasible action: wash(plate)
+Human explanation: You can't wash plate because the robot is far away from the plate, the robot needs to be within 1m from the plate to wash it; also, the robot has something else in hand.
+Output:
+{
+    "1. Reasoning": "Based on human explanation, we know the robot is farther than 1m from the plate, and it has something else in hand, so it can't to wash the plate. The precondition of action wash(plate) is that the robot is close enough (smaller than 1m) to the plate, and its hand is empty. Given the available predicates, none of them can directly represent the precondition; so we invent predicate obj_close_enough(a) to check whether object a is close enough, and predicate hand_empty() to check whether robot has its hand free. Then the current literal follows obj_close_enough(plate) is false and hand_empty() is false, and the action precondition is obj_close_enough(plate) is true and hand_empty() is true",
+    "2. Invented predicates": {
+        "obj_close_enough(a)": "check whether object a is close enough to the robot, the predicate holds when the distance between robot and object is smaller that 1m",
+        "hand_empty()": "check whether the robot has its hand free, the predicate holds when the robot is not holding anything"
+    },
+    "3. New action preconditions": {
+        "action": "wash(a)",
+        "new preconditions": {
+            "obj_close_enough(a)": true,
+            "hand_empty()": true
+        }
+    },
+    "4. Current state literals": {
+        "obj_close_enough(plate)": false,
+        "hand_empty()": false
+    }
+}
+
+{domain_desc}
+Available objects: {entities}
+Available predicates: {predicates}
+Infeasible action: {failed_action}
+Human explanation: {failure_explain}
+Please give the output following the format in the examples, and make sure to include all fields of the json in your outputs.
+Output (please don't output ```json):

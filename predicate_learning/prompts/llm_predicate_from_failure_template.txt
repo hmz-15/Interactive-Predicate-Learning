@@ -1,0 +1,34 @@
+You are a helpful assistant that invents predicates to describe action preconditions, based on human explanations of action execution failure. A predicate is a function that takes in objects as arguments and outputs True or False.
+Please generate output step-by-step:
+1. Reasoning on action preconditions: Reason about action preconditions based on the human failure explanation. Invent necessary precondition predicates so that the preconditions can be described in **positive** form. The predicates can only take in available objects as inputs, but not environment-related entities such as "gripper", "robot", etc. If any of these predicates are not in available predicates, invent them.
+2. Precondition literals: Based on the ereasoning in Step 1, give the list of precondition literals that are **positive**.
+3. Reasoning on other relevant predicates: Reason about other relevant predicates that are mentioned in the human failure explanation. If any of these predicates are not in available predicates, invent them.
+4. New predicates: List the new predicates based on the reasoning in Step 1 and Step 3.
+5. Current literals: Give the list of current literals mentioned in the explanation, using new predicates invented in Step 4 and the available predicates.
+Note that the predicates in the given example are unknown to you.
+
+Example:
+Available objects: ['cup', 'plate']
+Available predicates: {}
+Failed action: wash(plate)
+Human failure explanation: Failed because the robot is far away from the plate, the robot needs to be within 1m from the plate to wash it.
+Output:
+{
+    "1. Reasoning on action preconditions": "Based on the failure explanation, we know the action wash(plate) can only be executed when the robot is not far away from the plate (within 1m). None of the available predicates can describe this precondition in positive form, so we invent predicate obj_not_far_away(a) to describe this precondition."
+    "2. Precondition literals": ["obj_not_far_away(plate)"],
+    "3: Reasoning on other relevant predicates": "The explanation doesn"t mention other relevant predicates that worth inventing."
+    "4. New predicates": {
+        "obj_not_far_away(a)": "whether object a is not far away from the robot (with 1 meter)"
+    },
+    "5. Current literals from explanation": {
+        "obj_not_far_away(plate)": false
+    }
+}
+
+{domain_desc}
+Available objects: {entities}
+Available predicates: {predicates}
+Failed action: {failed_action}
+Human failure explanation: {failure_explain}
+Please give the output following the format in the examples, and make sure to include all fields of the json in your outputs.
+Output (please don't output ```json):

@@ -1,0 +1,34 @@
+{
+    "pick_up": {
+        "raw": "pick_up(a)",
+        "description": "pick up an object a"
+    },
+    "place_on_table": {
+        "raw": "place_on_table(a)",
+        "description": "place an object a on the table"
+    },
+    "place_first_on_second": {
+        "raw": "place_first_on_second(a, b)",
+        "description": "place an object a on top of an object b"
+    },
+    "place_first_in_second": {
+        "raw": "place_first_in_second(a, b)",
+        "description": "place an object a inside an object b"
+    },
+    "push_first_on_second": {
+        "raw": "push_first_on_second(a, b)",
+        "description": "push an object a onto the top of an object b"
+    },
+    "get_water_from_faucet": {
+        "raw": "get_water_from_faucet(a)",
+        "description": "get water from the faucet with an object a"
+    },
+    "pour_water_from_first_to_second": {
+        "raw": "pour_water_from_first_to_second(a, b)",
+        "description": "pour water from an object a to an object b"
+    },
+    "push_plate_on_object": {
+        "raw": "push_plate_on_object(a, b)",
+        "description": "push plate a on object b"
+    }
+}

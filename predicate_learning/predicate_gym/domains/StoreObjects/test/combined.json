@@ -1,0 +1,562 @@
+{
+  "1": {
+    "objects": {
+      "shelf": [
+        -5,
+        0
+      ],
+      "coaster": [
+        -25.693072970027327,
+        0.0
+      ],
+      "fruitcan": [
+        -25.99337893951999,
+        2.5
+      ],
+      "tomatocan": [
+        8.879956896683094,
+        0.0
+      ],
+      "beancan": [
+        8.880123487513423,
+        3.0
+      ],
+      "tunacan": [
+        8.875914320335802,
+        6.0
+      ]
+    },
+    "goal_text": "Store objects on shelf following the order: coaster on shelf, fruitcan on coaster, tomatocan on fruitcan, beancan on tomatocan, tunacan on beancan.",
+    "goal_lits_gt": [
+      [
+        "on",
+        "coaster",
+        "shelf"
+      ],
+      [
+        "on",
+        "fruitcan",
+        "coaster"
+      ],
+      [
+        "on",
+        "tomatocan",
+        "fruitcan"
+      ],
+      [
+        "on",
+        "beancan",
+        "tomatocan"
+      ],
+      [
+        "on",
+        "tunacan",
+        "beancan"
+      ]
+    ]
+  },
+  "2": {
+    "objects": {
+      "shelf": [
+        -5,
+        0
+      ],
+      "coaster": [
+        -24.707471323750152,
+        0.0
+      ],
+      "fruitcan": [
+        21.83442612142987,
+        0.0
+      ],
+      "tomatocan": [
+        -7.318220153274499,
+        4.0
+      ],
+      "beancan": [
+        21.826229464202537,
+        3.0
+      ],
+      "tunacan": [
+        -7.327123724852735,
+        7.0
+      ]
+    },
+    "goal_text": "Store objects on shelf following the order: coaster on shelf, fruitcan on coaster, tomatocan on fruitcan, beancan on tomatocan, tunacan on beancan.",
+    "goal_lits_gt": [
+      [
+        "on",
+        "coaster",
+        "shelf"
+      ],
+      [
+        "on",
+        "fruitcan",
+        "coaster"
+      ],
+      [
+        "on",
+        "tomatocan",
+        "fruitcan"
+      ],
+      [
+        "on",
+        "beancan",
+        "tomatocan"
+      ],
+      [
+        "on",
+        "tunacan",
+        "beancan"
+      ]
+    ]
+  },
+  "3": {
+    "objects": {
+      "shelf": [
+        -5,
+        0
+      ],
+      "coaster": [
+        5.259348308955925,
+        0.0
+      ],
+      "fruitcan": [
+        -6.595139152847694,
+        4.0
+      ],
+      "tomatocan": [
+        14.016238242632857,
+        0.0
+      ],
+      "beancan": [
+        14.015103492513544,
+        3.0
+      ],
+      "tunacan": [
+        -6.588657080300629,
+        7.0
+      ]
+    },
+    "goal_text": "Store objects on shelf following the order: coaster on shelf, fruitcan on coaster, tomatocan on fruitcan, beancan on tomatocan, tunacan on beancan.",
+    "goal_lits_gt": [
+      [
+        "on",
+        "coaster",
+        "shelf"
+      ],
+      [
+        "on",
+        "fruitcan",
+        "coaster"
+      ],
+      [
+        "on",
+        "tomatocan",
+        "fruitcan"
+      ],
+      [
+        "on",
+        "beancan",
+        "tomatocan"
+      ],
+      [
+        "on",
+        "tunacan",
+        "beancan"
+      ]
+    ]
+  },
+  "4": {
+    "objects": {
+      "shelf": [
+        -5,
+        0
+      ],
+      "coaster": [
+        11.275957638623158,
+        0.0
+      ],
+      "fruitcan": [
+        5.043215963261751,
+        0.0
+      ],
+      "tomatocan": [
+        -7.033762194214405,
+        4.0
+      ],
+      "beancan": [
+        5.034305717059773,
+        3.0
+      ],
+      "tunacan": [
+        5.027204935539731,
+        6.0
+      ]
+    },
+    "goal_text": "Store objects on shelf following the order: coaster on shelf, fruitcan on coaster, tomatocan on fruitcan, beancan on tomatocan, tunacan on beancan.",
+    "goal_lits_gt": [
+      [
+        "on",
+        "coaster",
+        "shelf"
+      ],
+      [
+        "on",
+        "fruitcan",
+        "coaster"
+      ],
+      [
+        "on",
+        "tomatocan",
+        "fruitcan"
+      ],
+      [
+        "on",
+        "beancan",
+        "tomatocan"
+      ],
+      [
+        "on",
+        "tunacan",
+        "beancan"
+      ]
+    ]
+  },
+  "5": {
+    "objects": {
+      "shelf": [
+        -5,
+        0
+      ],
+      "coaster": [
+        5.461350015300818,
+        0.0
+      ],
+      "fruitcan": [
+        5.148452620214684,
+        2.5
+      ],
+      "tomatocan": [
+        -7.293656849846685,
+        4.0
+      ],
+      "beancan": [
+        21.980935567520028,
+        0.0
+      ],
+      "tunacan": [
+        -7.290446843314799,
+        7.0
+      ]
+    },
+    "goal_text": "Store objects on shelf following the order: coaster on shelf, fruitcan on coaster, tomatocan on fruitcan, beancan on tomatocan, tunacan on beancan.",
+    "goal_lits_gt": [
+      [
+        "on",
+        "coaster",
+        "shelf"
+      ],
+      [
+        "on",
+        "fruitcan",
+        "coaster"
+      ],
+      [
+        "on",
+        "tomatocan",
+        "fruitcan"
+      ],
+      [
+        "on",
+        "beancan",
+        "tomatocan"
+      ],
+      [
+        "on",
+        "tunacan",
+        "beancan"
+      ]
+    ]
+  },
+  "6": {
+    "objects": {
+      "shelf": [
+        -5,
+        0
+      ],
+      "coaster": [
+        -15.474486892901758,
+        0.0
+      ],
+      "fruitcan": [
+        -31.6395505091751,
+        0.0
+      ],
+      "tomatocan": [
+        -6.164562800732318,
+        4.0
+      ],
+      "beancan": [
+        -6.171533509275265,
+        7.0
+      ],
+      "tunacan": [
+        -6.180522625070007,
+        10.0
+      ]
+    },
+    "goal_text": "Store objects on shelf following the order: coaster on shelf, fruitcan on coaster, tomatocan on fruitcan, beancan on tomatocan, tunacan on beancan.",
+    "goal_lits_gt": [
+      [
+        "on",
+        "coaster",
+        "shelf"
+      ],
+      [
+        "on",
+        "fruitcan",
+        "coaster"
+      ],
+      [
+        "on",
+        "tomatocan",
+        "fruitcan"
+      ],
+      [
+        "on",
+        "beancan",
+        "tomatocan"
+      ],
+      [
+        "on",
+        "tunacan",
+        "beancan"
+      ]
+    ]
+  },
+  "7": {
+    "objects": {
+      "shelf": [
+        -5,
+        0
+      ],
+      "coaster": [
+        -17.416334189776624,
+        0.0
+      ],
+      "fruitcan": [
+        -16.95429662420181,
+        2.5
+      ],
+      "tomatocan": [
+        -33.260254126361055,
+        0.0
+      ],
+      "beancan": [
+        -16.945523204288392,
+        5.5
+      ],
+      "tunacan": [
+        -2.7804780546495556,
+        4.0
+      ]
+    },
+    "goal_text": "Store objects on shelf following the order: coaster on shelf, fruitcan on coaster, tomatocan on fruitcan, beancan on tomatocan, tunacan on beancan.",
+    "goal_lits_gt": [
+      [
+        "on",
+        "coaster",
+        "shelf"
+      ],
+      [
+        "on",
+        "fruitcan",
+        "coaster"
+      ],
+      [
+        "on",
+        "tomatocan",
+        "fruitcan"
+      ],
+      [
+        "on",
+        "beancan",
+        "tomatocan"
+      ],
+      [
+        "on",
+        "tunacan",
+        "beancan"
+      ]
+    ]
+  },
+  "8": {
+    "objects": {
+      "shelf": [
+        -5,
+        0
+      ],
+      "coaster": [
+        -37.606710915271826,
+        0.0
+      ],
+      "fruitcan": [
+        -37.62349379119487,
+        2.5
+      ],
+      "tomatocan": [
+        -37.62284622073402,
+        5.5
+      ],
+      "beancan": [
+        -37.61697180293479,
+        8.5
+      ],
+      "tunacan": [
+        -4.9150241379781665,
+        4.0
+      ]
+    },
+    "goal_text": "Store objects on shelf following the order: coaster on shelf, fruitcan on coaster, tomatocan on fruitcan, beancan on tomatocan, tunacan on beancan.",
+    "goal_lits_gt": [
+      [
+        "on",
+        "coaster",
+        "shelf"
+      ],
+      [
+        "on",
+        "fruitcan",
+        "coaster"
+      ],
+      [
+        "on",
+        "tomatocan",
+        "fruitcan"
+      ],
+      [
+        "on",
+        "beancan",
+        "tomatocan"
+      ],
+      [
+        "on",
+        "tunacan",
+        "beancan"
+      ]
+    ]
+  },
+  "9": {
+    "objects": {
+      "shelf": [
+        -5,
+        0
+      ],
+      "coaster": [
+        4.424963980700071,
+        0.0
+      ],
+      "fruitcan": [
+        -4.886466545493585,
+        4.0
+      ],
+      "tomatocan": [
+        4.47674432104505,
+        2.5
+      ],
+      "beancan": [
+        -4.896293962756895,
+        7.0
+      ],
+      "tunacan": [
+        -26.38256174316141,
+        0.0
+      ]
+    },
+    "goal_text": "Store objects on shelf following the order: coaster on shelf, fruitcan on coaster, tomatocan on fruitcan, beancan on tomatocan, tunacan on beancan.",
+    "goal_lits_gt": [
+      [
+        "on",
+        "coaster",
+        "shelf"
+      ],
+      [
+        "on",
+        "fruitcan",
+        "coaster"
+      ],
+      [
+        "on",
+        "tomatocan",
+        "fruitcan"
+      ],
+      [
+        "on",
+        "beancan",
+        "tomatocan"
+      ],
+      [
+        "on",
+        "tunacan",
+        "beancan"
+      ]
+    ]
+  },
+  "10": {
+    "objects": {
+      "shelf": [
+        -5,
+        0
+      ],
+      "coaster": [
+        -22.5542205084366,
+        0.0
+      ],
+      "fruitcan": [
+        -3.896481511277302,
+        4.0
+      ],
+      "tomatocan": [
+        -22.328290448988458,
+        2.5
+      ],
+      "beancan": [
+        23.324328762087976,
+        0.0
+      ],
+      "tunacan": [
+        -3.9051626460602105,
+        7.0
+      ]
+    },
+    "goal_text": "Store objects on shelf following the order: coaster on shelf, fruitcan on coaster, tomatocan on fruitcan, beancan on tomatocan, tunacan on beancan.",
+    "goal_lits_gt": [
+      [
+        "on",
+        "coaster",
+        "shelf"
+      ],
+      [
+        "on",
+        "fruitcan",
+        "coaster"
+      ],
+      [
+        "on",
+        "tomatocan",
+        "fruitcan"
+      ],
+      [
+        "on",
+        "beancan",
+        "tomatocan"
+      ],
+      [
+        "on",
+        "tunacan",
+        "beancan"
+      ]
+    ]
+  }
+}

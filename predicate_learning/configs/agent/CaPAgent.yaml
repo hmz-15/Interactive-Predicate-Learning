@@ -1,0 +1,9 @@
+# Code-as-Policies agent
+agent: CaPAgent
+
+defaults:
+  - base
+  - _self_
+
+# domain dir
+domain_dir: "predicate_learning/predicate_gym/domains"

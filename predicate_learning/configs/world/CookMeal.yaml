@@ -1,0 +1,68 @@
+world: CookMeal
+
+# task instances
+instances_list:  
+  # train instances (for corection planning)
+  train:
+    train:
+      num_instances: 10
+      task_spec:
+        known_objects: ["pot", "cup", "sausage"]
+        # first sample goal semantics, then specific goal item
+        goals: # start with "primitive"
+          primitive_get_water: 
+          - [["has_water", "cup"], ["on_table", "cup"]]
+          primitive_put_in_pot:
+          - [["inside_container", "sausage", "pot"]]
+          primitive_pour_water:
+          - [["has_water", "pot"], ["on_table", "pot"]]
+
+  
+  # test instances (for generalization)
+  test:
+    canonical:
+      num_instances: 10
+      task_spec:
+        known_objects: ["pot", "cup", "sausage"]
+        # first sample goal semantics, then specific goal item
+        goals: # start with "primitive"
+          primitive_get_water: 
+          - [["has_water", "cup"], ["on_table", "cup"]]
+          primitive_put_in_pot:
+          - [["inside_container", "sausage", "pot"]]
+          primitive_pour_water:
+          - [["has_water", "pot"], ["on_table", "pot"]]
+
+    novel_objects:
+      num_instances: 10
+      task_spec:
+        known_objects: ["pot", "tallcup", "cup", "sausage", "fish", "pork"]
+        # first sample goal semantics, then specific goal item
+        goals: # start with "primitive"
+          primitive_get_water: 
+          - [["has_water", "cup"], ["on_table", "cup"]]
+          - [["has_water", "tallcup"], ["on_table", "tallcup"]]
+          primitive_put_in_pot:
+          - [["inside_container", "sausage", "pot"]]
+          - [["inside_container", "fish", "pot"]]
+          - [["inside_container", "pork", "pot"]]
+          primitive_pour_water:
+          - [["has_water", "pot"], ["on_table", "pot"]]
+
+    novel_goals:
+      num_instances: 10
+      task_spec:
+        known_objects: ["pot", "cup", "sausage"]
+        # first sample goal semantics, then specific goal item
+        goals: # start with "full"
+          full:
+          - [["has_water", "pot"], ["inside_container", "sausage", "pot"], ["on_table", "pot"]]
+
+    combined:
+      num_instances: 10
+      task_spec:
+        known_objects:  ["pot", "tallcup", "cup", "sausage", "fish", "pork"]
+        # first sample goal semantics, then specific goal item
+        goals: # start with "full"
+          full:
+          - [["has_water", "pot"], ["has_water", "tallcup"], ["on_table", "tallcup"], ["on_table", "pot"], ["inside_container", "sausage", "pot"], ["inside_container", "fish", "pot"], ["inside_container", "pork", "pot"]]

@@ -1,0 +1,12 @@
+You are a help assistant that generate optimal action plans for robot planning problems.
+{domain_desc}
+{action_desc}
+{predicates}{knowledge}{examples}
+
+Now we have the new problem below:
+{problem}
+Please output a plan of actions to reach the goal, following the json format below:
+{
+    "Plan": ["pick(...)", "place(...)", ...]
+}
+The output plan is (please don't output ```json):
