@@ -4,7 +4,7 @@
   <img width="400" src="assets/teaser.png">
 </p>
 
-This repo contains the simulation code of our RSS 2024 paper [InterPreT: Interactive Predicate Learning from Language Feedback for Generalizable Task Planning](https://interpret-robot.github.io/).
+This repo contains the simulation code of our RSS 2024 paper [InterPreT: Interactive Predicate Learning from Language Feedback for Generalizable Task Planning](https://arxiv.org/abs/2405.19758).
 
 InterPreT is a LLM-powered framework that learns PDDL domains (symbolic predicates and operators) from language feedback for long-horizon, generalizable robot task planning.
 
