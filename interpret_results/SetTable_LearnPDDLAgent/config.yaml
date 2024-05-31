@@ -1,0 +1,173 @@
+world:
+  world: SetTable
+  instances_list:
+    train:
+      train:
+        num_instances: 10
+        task_spec:
+          known_objects:
+          - placemat
+          - plate
+          - candybar
+          - bread
+          goals:
+            primitive_put_on_obj:
+            - - - 'on'
+                - candybar
+                - placemat
+            - - - 'on'
+                - candybar
+                - plate
+            - - - 'on'
+                - bread
+                - placemat
+            - - - 'on'
+                - bread
+                - plate
+            primitive_push_plate:
+            - - - 'on'
+                - plate
+                - placemat
+            primitive_put_on:
+            - - - on_table
+                - candybar
+            - - - on_table
+                - bread
+    test:
+      canonical:
+        num_instances: 10
+        task_spec:
+          known_objects:
+          - placemat
+          - plate
+          - candybar
+          - bread
+          goals:
+            primitive_put_on_obj:
+            - - - 'on'
+                - candybar
+                - placemat
+            - - - 'on'
+                - candybar
+                - plate
+            - - - 'on'
+                - bread
+                - placemat
+            - - - 'on'
+                - bread
+                - plate
+            primitive_push_plate:
+            - - - 'on'
+                - plate
+                - placemat
+            primitive_put_on:
+            - - - on_table
+                - candybar
+            - - - on_table
+                - bread
+      novel_objects:
+        num_instances: 10
+        task_spec:
+          known_objects:
+          - placemat
+          - plate
+          - candybar
+          - sausage
+          - bread
+          goals: null
+          primitive_put_on_obj:
+          - - - 'on'
+              - candybar
+              - placemat
+          - - - 'on'
+              - sausage
+              - placemat
+          - - - 'on'
+              - bread
+              - placemat
+          - - - 'on'
+              - candybar
+              - plate
+          - - - 'on'
+              - sausage
+              - plate
+          - - - 'on'
+              - bread
+              - plate
+          primitive_push_plate:
+          - - - 'on'
+              - plate
+              - placemat
+          primitive_put_on:
+          - - - on_table
+              - candybar
+          - - - on_table
+              - sausage
+          - - - on_table
+              - bread
+      novel_goals:
+        num_instances: 10
+        task_spec:
+          known_objects:
+          - placemat
+          - plate
+          - candybar
+          - bread
+          goals:
+            full:
+            - - - 'on'
+                - plate
+                - placemat
+              - - 'on'
+                - bread
+                - plate
+              - - 'on'
+                - candybar
+                - bread
+      combined:
+        num_instances: 10
+        task_spec:
+          known_objects:
+          - placemat
+          - plate
+          - candybar
+          - sausage
+          - bread
+          goals:
+            full:
+            - - - 'on'
+                - plate
+                - placemat
+              - - 'on'
+                - candybar
+                - plate
+              - - 'on'
+                - bread
+                - candybar
+              - - 'on'
+                - sausage
+                - bread
+agent:
+  prompt_dir: predicate_learning/prompts
+  example_predicate_prompt_file: predicate_learning/prompts/llm_example_predicates.py
+  domain_dir: predicate_learning/predicate_gym/domains
+  random_act_prob: 0.5
+  use_gpt_4: true
+  save_demo_traj: false
+  use_few_shot_demos: false
+  agent: LearnPDDLAgent
+  train_planner: PDDLPlanner
+  test_planner: PDDLPlanner
+  load_path: saved_runs/run_train/2024-05-30-16-50-00/StoreObjects_LearnPDDLAgent
+  replan_at_each_step_at_test: false
+max_steps: 20
+max_repeated_failed_steps: 5
+seed: 42
+render: true
+max_failed_steps_on_test: 1
+overwrite_instances: false
+load_agent_knowledge: true
+use_diverse_feedback: false
+runner: SingleModeRunner
+mode: train
+save_dir: saved_runs/run_${mode}/${now:%Y-%m-%d-%H-%M-%S}/${world.world}_${agent.agent}

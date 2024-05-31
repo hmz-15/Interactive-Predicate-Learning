@@ -9,7 +9,7 @@ from predicate_learning.utils.env_util import get_bounding_box
 
 
 class Kitchen2DEnv(Kitchen2D):
-    def __init__(self, render, overclock=3):
+    def __init__(self, render, overclock=10):
         """
         A wrapper that helps create a customized Kitchen2D environment.
         Args:

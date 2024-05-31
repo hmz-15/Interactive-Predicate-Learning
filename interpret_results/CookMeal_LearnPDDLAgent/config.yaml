@@ -1,0 +1,153 @@
+world:
+  world: CookMeal
+  instances_list:
+    train:
+      train:
+        num_instances: 10
+        task_spec:
+          known_objects:
+          - pot
+          - cup
+          - sausage
+          goals:
+            primitive_get_water:
+            - - - has_water
+                - cup
+              - - on_table
+                - cup
+            primitive_put_in_pot:
+            - - - inside_container
+                - sausage
+                - pot
+            primitive_pour_water:
+            - - - has_water
+                - pot
+              - - on_table
+                - pot
+    test:
+      canonical:
+        num_instances: 10
+        task_spec:
+          known_objects:
+          - pot
+          - cup
+          - sausage
+          goals:
+            primitive_get_water:
+            - - - has_water
+                - cup
+              - - on_table
+                - cup
+            primitive_put_in_pot:
+            - - - inside_container
+                - sausage
+                - pot
+            primitive_pour_water:
+            - - - has_water
+                - pot
+              - - on_table
+                - pot
+      novel_objects:
+        num_instances: 10
+        task_spec:
+          known_objects:
+          - pot
+          - tallcup
+          - cup
+          - sausage
+          - fish
+          - pork
+          goals:
+            primitive_get_water:
+            - - - has_water
+                - cup
+              - - on_table
+                - cup
+            - - - has_water
+                - tallcup
+              - - on_table
+                - tallcup
+            primitive_put_in_pot:
+            - - - inside_container
+                - sausage
+                - pot
+            - - - inside_container
+                - fish
+                - pot
+            - - - inside_container
+                - pork
+                - pot
+            primitive_pour_water:
+            - - - has_water
+                - pot
+              - - on_table
+                - pot
+      novel_goals:
+        num_instances: 10
+        task_spec:
+          known_objects:
+          - pot
+          - cup
+          - sausage
+          goals:
+            full:
+            - - - has_water
+                - pot
+              - - inside_container
+                - sausage
+                - pot
+              - - on_table
+                - pot
+      combined:
+        num_instances: 10
+        task_spec:
+          known_objects:
+          - pot
+          - tallcup
+          - cup
+          - sausage
+          - fish
+          - pork
+          goals:
+            full:
+            - - - has_water
+                - pot
+              - - has_water
+                - tallcup
+              - - on_table
+                - tallcup
+              - - on_table
+                - pot
+              - - inside_container
+                - sausage
+                - pot
+              - - inside_container
+                - fish
+                - pot
+              - - inside_container
+                - pork
+                - pot
+agent:
+  prompt_dir: predicate_learning/prompts
+  example_predicate_prompt_file: predicate_learning/prompts/llm_example_predicates.py
+  domain_dir: predicate_learning/predicate_gym/domains
+  random_act_prob: 0.5
+  use_gpt_4: true
+  save_demo_traj: false
+  use_few_shot_demos: false
+  agent: LearnPDDLAgent
+  train_planner: PDDLPlanner
+  test_planner: PDDLPlanner
+  load_path: null
+  replan_at_each_step_at_test: false
+max_steps: 20
+max_repeated_failed_steps: 5
+seed: 42
+render: true
+max_failed_steps_on_test: 1
+overwrite_instances: false
+load_agent_knowledge: false
+use_diverse_feedback: false
+runner: SingleModeRunner
+mode: train
+save_dir: saved_runs/run_${mode}/${now:%Y-%m-%d-%H-%M-%S}/${world.world}_${agent.agent}

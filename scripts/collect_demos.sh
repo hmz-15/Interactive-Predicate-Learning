@@ -3,7 +3,7 @@
 worlds=(StoreObjects SetTable CookMeal)
 
 # run render for one time
-render=true
+render=false
 
 # random seeds
 seed=42

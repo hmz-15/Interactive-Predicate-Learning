@@ -187,7 +187,7 @@ class PDDLPlanner(RandomFeasiblePlanner):
         try:
             plan = self._pddl_planner(self._pddl_domain, state, timeout=100)
         except PlanningFailure as e:
-            # logger.warning(f"Planning failed with exception: {e}")
+            logger.warning(f"Planning failed with exception: {e}")
             planning_failed = True
         except PlanningTimeout as e:
             planning_failed = True

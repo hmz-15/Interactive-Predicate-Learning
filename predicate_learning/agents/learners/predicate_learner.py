@@ -386,9 +386,9 @@ class PredicateLearner(LLMBase):
         self._predicates.add_predicates(llm_output["2. Invented predicates"], essential=True)
 
         # save general knowledge
-        new_general_knowledge = llm_output["5. New general knowledge"]
-        if len(new_general_knowledge) > 0:
-            self._general_knowledge.append(new_general_knowledge)
+        # new_general_knowledge = llm_output["5. New general knowledge"]
+        # if len(new_general_knowledge) > 0:
+        #     self._general_knowledge.append(new_general_knowledge)
 
         # convert precondition literals
         precondition_lits = set()
@@ -416,7 +416,7 @@ class PredicateLearner(LLMBase):
 
         logger.info(f"Invented predicates: {llm_output['2. Invented predicates']}")
         logger.info(f"Precondition literals: {precondition_lits}")
-        logger.info(f"New general knowledge: {llm_output['5. New general knowledge']}")
+        # logger.info(f"New general knowledge: {llm_output['5. New general knowledge']}")
         logger.info(f"Current literals: {llm_output['4. Current state literals']}")
         return llm_output["4. Current state literals"], (
             lifted_action,
