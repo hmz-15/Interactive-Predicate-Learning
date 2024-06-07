@@ -8,6 +8,18 @@ This repo contains the simulation code of our RSS 2024 paper [InterPreT: Interac
 
 InterPreT is a LLM-powered framework that learns PDDL domains (symbolic predicates and operators) from language feedback for long-horizon, generalizable robot task planning.
 
+## Citation
+
+If you find this repo useful, please consider citing our paper:
+```bibtex
+@inproceedings{han2024interpret,
+  title={InterPreT: Interactive Predicate Learning from Language Feedback for Generalizable Task Planning}, 
+  author={Muzhi Han and Yifeng Zhu and Song-Chun Zhu and Ying Nian Wu and Yuke Zhu},
+  booktitle = {Robotics: Science and Systems (RSS)},
+  year = {2024}
+}
+```
+
 ## Installation
 
 ### Configure conda dependencies
